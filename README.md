@@ -7,6 +7,7 @@ Skateboard playformer homebrew game for Nintendo GB, currently being made with G
   <img src="assets/git/preview.gif" width="600" />
 </p>
 
+Download the ROM file or [Click here to play online!](https://shellywell123.github.io/Grind_Boy/build/web/index.html)
 
 ## To be developed:
 
