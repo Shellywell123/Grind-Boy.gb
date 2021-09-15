@@ -187,27 +187,33 @@ AREA .  .ABS.
 		s__CODE	0200
 		l__BASE	0245
 		l__HOME	0252
-		l__CODE_8	02C1
 		l__GSINIT	0517
 		l__DATA	0E22
-		l__CODE_7	1DC5
-		l__CODE_5	2040
+		l__CODE_5	20AC
+		l__CODE_11	2CF4
+		l__CODE_10	2D48
 		l__CODE	2EB5
 		s__HOME	30B5
 		s__BASE	3307
 		l__CODE_4	34DF
 		s__LIT	354C
 		s__GSINIT	354C
+		l__CODE_9	389A
 		l__CODE_1	3905
 		s__GSINITTAIL	3A63
 		s__GSFINAL	3A64
-		l__CODE_6	3F66
+		l__CODE_8	3CDE
+		l__CODE_7	3FC9
+		l__CODE_6	3FF6
+		s__CODE_10	4000
+		s__CODE_11	4000
 		s__CODE_1	4000
 		s__CODE_4	4000
 		s__CODE_5	4000
 		s__CODE_6	4000
 		s__CODE_7	4000
 		s__CODE_8	4000
+		s__CODE_9	4000
 		s__BSEG	74DF
 		s__ISEG	74DF
 		s__XSEG	74DF
@@ -1027,55 +1033,82 @@ AREA _XSEG
 	BASE 74DF
 	SIZE 0000
 	ATTRIB REL CON
+AREA _CODE_10
+	RADIX HEX
+	BASE 4000
+	SIZE 2D48
+	ATTRIB REL CON
+	GLOBALS
+		_bank_10_data	4000
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3F66
+	SIZE 3FF6
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 1DC5
+	SIZE 3FC9
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
-AREA _CODE_5
-	RADIX HEX
-	BASE 4000
-	SIZE 2040
-	ATTRIB REL CON
-	GLOBALS
-		_tileset_bank_ptrs	4000
-		_background_bank_ptrs	4009
-		_background_attr_bank_ptrs	4012
-		_palette_bank_ptrs	401B
-		_sprite_bank_ptrs	402A
-		_scene_bank_ptrs	402D
-		_collision_bank_ptrs	4036
-		_avatar_bank_ptrs	403F
-		_music_tracks	4042
-		_music_banks	4048
-		_Start_Adventure	404B
-		_Update_Adventure	4060
-		_Start_Platform	4660
-		_Update_Platform	472C
-		_Start_PointNClick	530C
-		_Update_PointNClick	5335
-		_Start_Shmup	55F0
-		_Update_Shmup	5680
-		_Start_TopDown	5C22
-		_Update_TopDown	5C37
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 02C1
+	SIZE 3CDE
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
-		_music_track_101__Data	42B9
-		_music_track_102__Data	42BD
+AREA _CODE_9
+	RADIX HEX
+	BASE 4000
+	SIZE 389A
+	ATTRIB REL CON
+	GLOBALS
+		_bank_9_data	4000
+AREA _CODE_5
+	RADIX HEX
+	BASE 4000
+	SIZE 20AC
+	ATTRIB REL CON
+	GLOBALS
+		_tileset_bank_ptrs	4000
+		_background_bank_ptrs	4018
+		_background_attr_bank_ptrs	4030
+		_palette_bank_ptrs	4048
+		_sprite_bank_ptrs	4066
+		_scene_bank_ptrs	4069
+		_collision_bank_ptrs	4081
+		_avatar_bank_ptrs	4099
+		_music_tracks	409C
+		_music_banks	40AE
+		_Start_Adventure	40B7
+		_Update_Adventure	40CC
+		_Start_Platform	46CC
+		_Update_Platform	4798
+		_Start_PointNClick	5378
+		_Update_PointNClick	53A1
+		_Start_Shmup	565C
+		_Update_Shmup	56EC
+		_Start_TopDown	5C8E
+		_Update_TopDown	5CA3
+AREA _CODE_11
+	RADIX HEX
+	BASE 4000
+	SIZE 2CF4
+	ATTRIB REL CON
+	GLOBALS
+		_bank_11_data	4000
+		_music_track_101__Data	6C98
+		_music_track_102__Data	6CA2
+		_music_track_103__Data	6CBC
+		_music_track_104__Data	6CC6
+		_music_track_105__Data	6CD2
+		_music_track_106__Data	6CD6
+		_music_track_107__Data	6CEA
+		_music_track_108__Data	6CEE
 AREA _SFR0
 	RADIX HEX
 	BASE 0000
@@ -1485,84 +1518,93 @@ MODULES
 		NAME Runtime
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Actor_a.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Actor_b.o
-		NAME C__Users_benja_AppData_Local_Tem ÙŠ ÙŠ©·‚;¦")îUò)¦z)¦z)©ÀõÏ­yP
+		NAME C__Users_benja_AppData_Local_Temˆ¿ÏÃˆ¿ÏÃ¶¡Ë4`X2ğ`+l`+l`¶Ö¼Ü¶
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Actor.o
-		NAME C__Users_benja_AppData_Local_Tem ÙŠ ÙŠ©·‚;¨")ÊWò)¨z)¨z)©Àõ¬¹PA
+		NAME C__Users_benja_AppData_Local_Tem¨£ÏÃ¨£ÏÃ¡ª¡Ë3
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/asm.macros.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/BankData.o
-		NAME C__Users_benja_AppData_Local_Tem
+		NAME C__Users_benja_AppData_Local_Temˆ¡ÏÃˆ¡ÏÃ¨¡Ë4`éªğ`+l`+l`¨Ö¼Ëßv
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/BankManager.o
-		NAME C__Users_benja_AppData_Local_Tem`ÙŠ`ÙŠi·‚û½")ëQò)Ã½z)Ã½z)iÀõ§®S
+		NAME C__Users_benja_AppData_Local_Temè§ÏÃè§ÏÃá®¡Ës4`qªğ`Kl`Kl`á®Ö¼ß²
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Camera_a.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Camera.o
-		NAME C__Users_benja_AppData_Local_TemàÙŠàÙŠé·‚{¼")º‡ò)C¼z)C¼z)éÀõ—®!S
+		NAME C__Users_benja_AppData_Local_Tem¨‘ÏÃ¨‘ÏÃ¡˜¡Ë324`W‰ğ`2l`2l`¡˜Ö¼×ÙJ
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Collision.o
-		NAME C__Users_benja_AppData_Local_TemàâØŠàâØŠéë¶‚{A#)Úùó)CA{)CA{)éëÁõ7‘S
+		NAME C__Users_benja_AppData_Local_Tem¯ÏÃ¯ÏÃ¦¡Ë“4`Şşğ`«l`«l`¦Ö¼Ş†
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Core_Main.o
-		NAME C__Users_benja_AppData_Local_Tem`ÙŠ`ÙŠi·‚û»")»wò)Ã»z)Ã»z)iÀõg®ÑR
+		NAME C__Users_benja_AppData_Local_Temh­ÏÃh­ÏÃa¤¡Ëó4`§ğ`Ël`Ël`a¤Ö¼_ŞÂ
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/DataManager.o
-		NAME C__Users_benja_AppData_Local_Tem@ÙŠ@ÙŠI·‚Û¿")aò)ã¿z)ã¿z)IÀõë®]S
+		NAME C__Users_benja_AppData_Local_TemH–ÏÃH–ÏÃAŸ¡ËÓ54`Èğ`ë5l`ë5l`AŸÖ¼3Ù®
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/FadeManager_b.o
-		NAME C__Users_benja_AppData_Local_TemÀàØŠÀàØŠÉé¶‚[C#)ò¨ó)cC{)cC{)ÉéÁõ{‘ÍS>
+		NAME C__Users_benja_AppData_Local_TemH¬ÏÃH¬ÏÃA¥¡ËÓ4`sÆğ`ël`ël`A¥Ö¼sŞî
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/FadeManager.o
-		NAME C__Users_benja_AppData_Local_Tem€áØŠ€áØŠ‰è¶‚B#)ñ·ó)#B{)#B{)‰èÁõS‘åS9
+		NAME C__Users_benja_AppData_Local_Tem‘ÏÃ‘ÏÃ˜¡Ë“24`Šğ`«2l`«2l`˜Ö¼ÛÙF
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/gbt_player_bank1.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/gbt_player.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Input.o
-		NAME C__Users_benja_AppData_Local_TemÀÙŠÀÙŠÉ·‚[¹")a‘ò)c¹z)c¹z)ÉÀõ;®R
+		NAME C__Users_benja_AppData_Local_Tem(ªÏÃ(ªÏÃ!£¡Ë³	4`Éğ`‹	l`‹	l`!£Ö¼‡Ş:
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Math.o
-		NAME C__Users_benja_AppData_Local_Tem`ÙŠ`ÙŠi·‚û¸")uò)Ã¸z)Ã¸z)iÀõ®±R
+		NAME C__Users_benja_AppData_Local_TemˆÏÃˆÏÃ™¡Ë34`/Õğ`+3l`+3l`™Ö¼ëÙ
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/MusicManager.o
-		NAME C__Users_benja_AppData_Local_TemàÙŠàÙŠé·‚{º")Edò)Cºz)Cºz)éÀõW®áRE
+		NAME C__Users_benja_AppData_Local_Temh«ÏÃh«ÏÃa¢¡Ëó4`Œğ`Ël`Ël`a¢Ö¼ŸŞ
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Palette.o
-		NAME C__Users_benja_AppData_Local_Tem@âØŠ@âØŠIë¶‚ÛA#)Åfó)ãA{)ãA{)IëÁõ+‘S
+		NAME C__Users_benja_AppData_Local_Temè¬ÏÃè¬ÏÃá¥¡Ës4`§ğ`Kl`Kl`á¥Ö¼oŞ’
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Projectiles_b.o
-		NAME C__Users_benja_AppData_Local_Tem°øEŠ°øEŠ¹ñ+‚+[¾)«n)[æ)[æ)¹ñ\õm2(Re!
+		NAME C__Users_benja_AppData_Local_Tem¨ÏÃ¨ÏÃ¡¡Ë“4`Íğ`«l`«l`¡Ö¼ûŞf
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Projectiles.o
-		NAME C__Users_benja_AppData_Local_TemíEŠíEŠ™ä+‚N¾)ä7n)3Næ)3Næ)™ä\õÑ0TQ
+		NAME C__Users_benja_AppData_Local_TemÈ‘ÏÃÈ‘ÏÃÁ˜¡ËS24`ÚÁğ`k2l`k2l`Á˜Ö¼ÃÙ~
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner_b.o
-		NAME C__Users_benja_AppData_Local_TempğEŠpğEŠyù+‚ëS¾)e"n)ÓSæ)ÓSæ)yù\õe3 Q
+		NAME C__Users_benja_AppData_Local_TemğDÁğDÁùM~Ékçëbœ
+/bSç³bSç³bùM	¾l##
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner.o
-		NAME C__Users_benja_AppData_Local_TemøEŠøEŠñ+‚‹[¾)Fn)³[æ)³[æ)ñ\õa2$R
+		NAME C__Users_benja_AppData_Local_TempEÁpEÁyL~Éëæëbªğ/bÓæ³bÓæ³byL	¾\#ó
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Scroll_a.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Scroll_b.o
-		NAME C__Users_benja_AppData_Local_TemöEŠöEŠ™ÿ+‚U¾)Zn)3Uæ)3Uæ)™ÿ\õ±3tR|&
+		NAME C__Users_benja_AppData_Local_TemPNÁPNÁYG~ÉËíëb C/bóí³bóí³bYG	¾0"o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Scroll.o
-		NAME C__Users_benja_AppData_Local_TemĞõEŠĞõEŠÙü+‚KV¾)k´n)sVæ)sVæ)Ùü\õÙ3\R+(
+		NAME C__Users_benja_AppData_Local_Tem°JÁ°JÁ¹C~É+éëb€Ú/bé³bé³b¹C	¾´"ë
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Sprite_b.o
-		NAME C__Users_benja_AppData_Local_Temğ÷EŠğ÷EŠùş+‚kT¾)lèn)STæ)STæ)ùş\õ•3R
+		NAME C__Users_benja_AppData_Local_TemPMÁPMÁYD~ÉËîëbs/bóî³bóî³bYD	¾P"
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Sprite.o
-		NAME C__Users_benja_AppData_Local_TemĞïEŠĞïEŠÙæ+‚KL¾),n)sLæ)sLæ)Ùæ\õ™0Q_8
+		NAME C__Users_benja_AppData_Local_Tem0KÁ0KÁ9B~É«èëbXa/b“è³b“è³b9B	¾ä"»
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Stack.o
-		NAME C__Users_benja_AppData_Local_TemğEŠğEŠ™ù+‚S¾)fn)3Sæ)3Sæ)™ù\õq34Q
+		NAME C__Users_benja_AppData_Local_TempHÁpHÁyA~Éëëëbñ /bÓë³bÓë³byA	¾ü"“
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Trigger_b.o
-		NAME C__Users_benja_AppData_Local_TemïEŠïEŠæ+‚‹L¾)ÿƒn)³Læ)³Læ)æ\õ0Qü:
+		NAME C__Users_benja_AppData_Local_TemLÁLÁE~É‹ïëbS/b³ï³b³ï³bE	¾x"
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Trigger.o
-		NAME C__Users_benja_AppData_Local_Tem0÷EŠ0÷EŠ9ş+‚«T¾)Ÿ9n)“Tæ)“Tæ)9ş\õ½3xR%
+		NAME C__Users_benja_AppData_Local_TemFÁFÁ™O~Éåëb?K/b3å³b3å³b™O	¾(#g
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/UI_b.o
-		NAME C__Users_benja_AppData_Local_TemõEŠõEŠü+‚‹V¾)/°n)³Væ)³Væ)ü\õÁ3DR
+		NAME C__Users_benja_AppData_Local_Tem°TÁ°TÁ¹]~É+÷ëb{/b÷³b÷³b¹]	¾t!+
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/UI.o
-		NAME C__Users_benja_AppData_Local_TemòEŠòEŠû+‚‹Q¾)õŸn)³Qæ)³Qæ)û\õ!3äQ.2
+		NAME C__Users_benja_AppData_Local_TempmÁpmÁyd~ÉëÎëbÅœ/bÓÎ³bÓÎ³byd	¾\&ó0
+
+	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/bank_10.o
+		NAME bank_10
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/bank_6.o
 		NAME bank_6
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/bank_7.o
 		NAME bank_7
+	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/bank_8.o
+		NAME bank_8
+	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/bank_9.o
+		NAME bank_9
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/data_ptrs.o
-		NAME C__Users_benja_AppData_Local_TemğâEŠğâEŠùë+‚kA¾)1n)SAæ)SAæ)ùë\õ51ğW[
+		NAME C__Users_benja_AppData_Local_Tem˜ŞèÁ˜ŞèÁ‘×†É}bÊ.×b;}Kb;}Kb‘×ñ¾)0Â¸
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/main.o
-		NAME C__Users_benja_AppData_Local_TemPèEŠPèEŠYá+‚ËK¾)j×n)óKæ)óKæ)Yá\õi0,PEL
-	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/music_bank_8.o
-		NAME music_bank_8
+		NAME C__Users_benja_AppData_Local_Tem¸ßèÁ¸ßèÁ±Ö†É#|b×b|Kb|Kb±Öñ¾0¾X
+	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/music_bank_11.o
+		NAME music_bank_11
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Adventure.o
-		NAME C__Users_benja_AppData_Local_TemğëEŠğëEŠùâ+‚kH¾) Án)SHæ)SHæ)ùâ\õ0PKC
+		NAME C__Users_benja_AppData_Local_Tem8Á8Á™VÉ·ÃbãIb3·›b3·›b™!¾h)f°
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Platform.o
-		NAME C__Users_benja_AppData_Local_TemêEŠêEŠ™ã+‚I¾)LÔn)3Iæ)3Iæ)™ã\õ10ôP_F
+		NAME C__Users_benja_AppData_Local_TemĞ8ÁĞ8ÁÙVÉK¡Ãby]bs¡›bs¡›bÙ!¾ +>\
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/PointNClick.o
-		NAME C__Users_benja_AppData_Local_Tem°ãEŠ°ãEŠ¹ê+‚+@¾)qn)@æ)@æ)¹ê\õ1ˆWaY
+		NAME C__Users_benja_AppData_Local_Temğ8Áğ8ÁùVÉkºÃb•«bSº›bSº›bù!¾Ì(Ús
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Shmup.o
-		NAME C__Users_benja_AppData_Local_Tem0èEŠ0èEŠ9á+‚«K¾)¦ˆn)“Kæ)“Kæ)9á\õ1P.M
+		NAME C__Users_benja_AppData_Local_Temp8Áp8ÁyVÉë·Ãb
+bÓ·›bÓ·›by!¾|)js
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/TopDown.o
-		NAME C__Users_benja_AppData_Local_TemğåEŠğåEŠùì+‚kF¾)^n)SFæ)SFæ)ùì\õÕ1PP_S
+		NAME C__Users_benja_AppData_Local_Tem8Á8ÁVÉ‹»Ãbîb³»›b³»›b!¾ø(Ö0
 LIBRARIES
 	LIBRARY C:\Users\benja\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o

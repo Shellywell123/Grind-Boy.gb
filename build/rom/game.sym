@@ -93,12 +93,15 @@
 00:354C s__GSINIT
 00:3A63 s__GSINITTAIL
 00:3A64 s__GSFINAL
+01:4000 s__CODE_10
+01:4000 s__CODE_11
 01:4000 s__CODE_1
 01:4000 s__CODE_4
 01:4000 s__CODE_5
 01:4000 s__CODE_6
 01:4000 s__CODE_7
 01:4000 s__CODE_8
+01:4000 s__CODE_9
 01:74DF s__BSEG
 01:74DF s__ISEG
 01:74DF s__XSEG
@@ -763,35 +766,47 @@
 ; Area: _ISEG
 ; Area: _BSEG
 ; Area: _XSEG
+; Area: _CODE_10
+01:4000 _bank_10_data
 ; Area: _CODE_6
 01:4000 _bank_6_data
 ; Area: _CODE_7
 01:4000 _bank_7_data
-; Area: _CODE_5
-01:4000 _tileset_bank_ptrs
-01:4009 _background_bank_ptrs
-01:4012 _background_attr_bank_ptrs
-01:401B _palette_bank_ptrs
-01:402A _sprite_bank_ptrs
-01:402D _scene_bank_ptrs
-01:4036 _collision_bank_ptrs
-01:403F _avatar_bank_ptrs
-01:4042 _music_tracks
-01:4048 _music_banks
-01:404B _Start_Adventure
-01:4060 _Update_Adventure
-01:4660 _Start_Platform
-01:472C _Update_Platform
-01:530C _Start_PointNClick
-01:5335 _Update_PointNClick
-01:55F0 _Start_Shmup
-01:5680 _Update_Shmup
-01:5C22 _Start_TopDown
-01:5C37 _Update_TopDown
 ; Area: _CODE_8
 01:4000 _bank_8_data
-01:42B9 _music_track_101__Data
-01:42BD _music_track_102__Data
+; Area: _CODE_9
+01:4000 _bank_9_data
+; Area: _CODE_5
+01:4000 _tileset_bank_ptrs
+01:4018 _background_bank_ptrs
+01:4030 _background_attr_bank_ptrs
+01:4048 _palette_bank_ptrs
+01:4066 _sprite_bank_ptrs
+01:4069 _scene_bank_ptrs
+01:4081 _collision_bank_ptrs
+01:4099 _avatar_bank_ptrs
+01:409C _music_tracks
+01:40AE _music_banks
+01:40B7 _Start_Adventure
+01:40CC _Update_Adventure
+01:46CC _Start_Platform
+01:4798 _Update_Platform
+01:5378 _Start_PointNClick
+01:53A1 _Update_PointNClick
+01:565C _Start_Shmup
+01:56EC _Update_Shmup
+01:5C8E _Start_TopDown
+01:5CA3 _Update_TopDown
+; Area: _CODE_11
+01:4000 _bank_11_data
+01:6C98 _music_track_101__Data
+01:6CA2 _music_track_102__Data
+01:6CBC _music_track_103__Data
+01:6CC6 _music_track_104__Data
+01:6CD2 _music_track_105__Data
+01:6CD6 _music_track_106__Data
+01:6CEA _music_track_107__Data
+01:6CEE _music_track_108__Data
 ; Area: _SFR0
 00:FF00 _P1_REG
 ; Area: _SFR1
