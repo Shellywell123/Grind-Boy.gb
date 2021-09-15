@@ -1518,66 +1518,68 @@ MODULES
 		NAME Runtime
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Actor_a.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Actor_b.o
-		NAME C__Users_benja_AppData_Local_Temˆ¿ÏÃˆ¿ÏÃ¶¡Ë4`X2ğ`+l`+l`¶Ö¼Ü¶
+		NAME C__Users_benja_AppData_Local_Tem
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Actor.o
-		NAME C__Users_benja_AppData_Local_Tem¨£ÏÃ¨£ÏÃ¡ª¡Ë3
+		NAME C__Users_benja_AppData_Local_Tem€@—€@—‰IyŸãì4hW04#ã´4#ã´4‰Ièó8C„
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/asm.macros.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/BankData.o
-		NAME C__Users_benja_AppData_Local_Temˆ¡ÏÃˆ¡ÏÃ¨¡Ë4`éªğ`+l`+l`¨Ö¼Ëßv
+		NAME C__Users_benja_AppData_Local_Tem U— U—©\yŸ;öì4#04ö´4ö´4©\è_:ï†
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/BankManager.o
-		NAME C__Users_benja_AppData_Local_Temè§ÏÃè§ÏÃá®¡Ës4`qªğ`Kl`Kl`á®Ö¼ß²
+		NAME C__Users_benja_AppData_Local_Tem C— C—)JyŸ»àì4±à04ƒà´4ƒà´4)Jè8_„
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Camera_a.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Camera.o
-		NAME C__Users_benja_AppData_Local_Tem¨‘ÏÃ¨‘ÏÃ¡˜¡Ë324`W‰ğ`2l`2l`¡˜Ö¼×ÙJ
+		NAME C__Users_benja_AppData_Local_Tem S— S—©ZyŸ;ğì4‹Ş04ğ´4ğ´4©ZèŸ:/†
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Collision.o
-		NAME C__Users_benja_AppData_Local_Tem¯ÏÃ¯ÏÃ¦¡Ë“4`Şşğ`«l`«l`¦Ö¼Ş†
+		NAME C__Users_benja_AppData_Local_Tem`o—`o—ifyŸûÌì4’~04ÃÌ´4ÃÌ´4ifè=×
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Core_Main.o
-		NAME C__Users_benja_AppData_Local_Temh­ÏÃh­ÏÃa¤¡Ëó4`§ğ`Ël`Ël`a¤Ö¼_ŞÂ
+		NAME C__Users_benja_AppData_Local_Tem€o—€o—‰fyŸÌì4ûË04#Ì´4#Ì´4‰fè=£
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/DataManager.o
-		NAME C__Users_benja_AppData_Local_TemH–ÏÃH–ÏÃAŸ¡ËÓ54`Èğ`ë5l`ë5l`AŸÖ¼3Ù®
+		NAME C__Users_benja_AppData_Local_Tem
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/FadeManager_b.o
-		NAME C__Users_benja_AppData_Local_TemH¬ÏÃH¬ÏÃA¥¡ËÓ4`sÆğ`ël`ël`A¥Ö¼sŞî
+		NAME C__Users_benja_AppData_Local_Tem@m—@m—IdyŸÛÎì4ã.04ãÎ´4ãÎ´4Idè[=ë
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/FadeManager.o
-		NAME C__Users_benja_AppData_Local_Tem‘ÏÃ‘ÏÃ˜¡Ë“24`Šğ`«2l`«2l`˜Ö¼ÛÙF
+		NAME C__Users_benja_AppData_Local_Tem n— n—)gyŸ»Íì4[t04ƒÍ´4ƒÍ´4)gè/=¿
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/gbt_player_bank1.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/gbt_player.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Input.o
-		NAME C__Users_benja_AppData_Local_Tem(ªÏÃ(ªÏÃ!£¡Ë³	4`Éğ`‹	l`‹	l`!£Ö¼‡Ş:
+		NAME C__Users_benja_AppData_Local_Tem i— i—©`yŸ;Êì4y}04Ê´4Ê´4©`èß=o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Math.o
-		NAME C__Users_benja_AppData_Local_TemˆÏÃˆÏÃ™¡Ë34`/Õğ`+3l`+3l`™Ö¼ëÙ
+		NAME C__Users_benja_AppData_Local_Tem`T—`T—i]yŸû÷ì4¦™04Ã÷´4Ã÷´4i]èg:÷†
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/MusicManager.o
-		NAME C__Users_benja_AppData_Local_Temh«ÏÃh«ÏÃa¢¡Ëó4`Œğ`Ël`Ël`a¢Ö¼ŸŞ
+		NAME C__Users_benja_AppData_Local_TemÀl—Àl—ÉeyŸ[Ïì4t@04cÏ´4cÏ´4Éeè=Û
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Palette.o
-		NAME C__Users_benja_AppData_Local_Temè¬ÏÃè¬ÏÃá¥¡Ës4`§ğ`Kl`Kl`á¥Ö¼oŞ’
+		NAME C__Users_benja_AppData_Local_Tem
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Projectiles_b.o
-		NAME C__Users_benja_AppData_Local_Tem¨ÏÃ¨ÏÃ¡¡Ë“4`Íğ`«l`«l`¡Ö¼ûŞf
+		NAME C__Users_benja_AppData_Local_Tem`Q—`Q—iXyŸûòì4,L04Ãò´4Ãò´4iXèÇ:—†
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Projectiles.o
-		NAME C__Users_benja_AppData_Local_TemÈ‘ÏÃÈ‘ÏÃÁ˜¡ËS24`ÚÁğ`k2l`k2l`Á˜Ö¼ÃÙ~
+		NAME C__Users_benja_AppData_Local_Tem@P—@P—IYyŸÛóì4'04ãó´4ãó´4IYèû:K†
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner_b.o
-		NAME C__Users_benja_AppData_Local_TemğDÁğDÁùM~Ékçëbœ
-/bSç³bSç³bùM	¾l##
+		NAME C__Users_benja_AppData_Local_TemØ¬Â•Ø¬Â•Ñ¥¬C96ş&å6{a6{a6Ñ¥Ûê…{…
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner.o
-		NAME C__Users_benja_AppData_Local_TempEÁpEÁyL~Éëæëbªğ/bÓæ³bÓæ³byL	¾\#ó
+		NAME C__Users_benja_AppData_Local_Tem¸ªÂ•¸ªÂ•±£¬#	96İ§å6	a6	a6±£Ûê¼…Ï„
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Scroll_a.o
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Scroll_b.o
-		NAME C__Users_benja_AppData_Local_TemPNÁPNÁYG~ÉËíëb C/bóí³bóí³bYG	¾0"o
+		NAME C__Users_benja_AppData_Local_TemªÂ•ªÂ•£¬ƒ	96×å6»	a6»	a6£Ûê …Ã„
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Scroll.o
-		NAME C__Users_benja_AppData_Local_Tem°JÁ°JÁ¹C~É+éëb€Ú/bé³bé³b¹C	¾´"ë
+		NAME C__Users_benja_AppData_Local_Tem8­Â•8­Â•1¤¬£96ÿ2å6›a6›a61¤ÛêL…?…
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Sprite_b.o
-		NAME C__Users_benja_AppData_Local_TemPMÁPMÁYD~ÉËîëbs/bóî³bóî³bYD	¾P"
+		NAME C__Users_benja_AppData_Local_Tem8Â•8Â•1™¬£3967>å6›3a6›3a61™Ûêì‚Ÿ…
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Sprite.o
-		NAME C__Users_benja_AppData_Local_Tem0KÁ0KÁ9B~É«èëbXa/b“è³b“è³b9B	¾ä"»
+		NAME C__Users_benja_AppData_Local_TemX­Â•X­Â•Q¤¬Ã96!}å6ûa6ûa6Q¤ÛêX…+…
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Stack.o
-		NAME C__Users_benja_AppData_Local_TempHÁpHÁyA~Éëëëbñ /bÓë³bÓë³byA	¾ü"“
+		NAME C__Users_benja_AppData_Local_TemXÂ•XÂ•Q™¬Ã396½å6û3a6û3a6Q™Ûêø‚‹… 
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Trigger_b.o
-		NAME C__Users_benja_AppData_Local_TemLÁLÁE~É‹ïëbS/b³ï³b³ï³bE	¾x"
+		NAME C__Users_benja_AppData_Local_Tem¸©Â•¸©Â•± ¬#
+96ìjå6
+a6
+a6± ÛêÜ…¯„
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Trigger.o
-		NAME C__Users_benja_AppData_Local_TemFÁFÁ™O~Éåëb?K/b3å³b3å³b™O	¾(#g
+		NAME C__Users_benja_AppData_Local_Tem˜¯Â•˜¯Â•‘¦¬96›å6;a6;a6‘¦Ûê…S…
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/UI_b.o
-		NAME C__Users_benja_AppData_Local_Tem°TÁ°TÁ¹]~É+÷ëb{/b÷³b÷³b¹]	¾t!+
+		NAME C__Users_benja_AppData_Local_Tem8¡Â•8¡Â•1¨¬£96
+jå6›a6›a61¨ÛêÌ„¿‡
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/UI.o
-		NAME C__Users_benja_AppData_Local_TempmÁpmÁyd~ÉëÎëbÅœ/bÓÎ³bÓÎ³byd	¾\&ó0
-
+		NAME C__Users_benja_AppData_Local_Tem˜¦Â•˜¦Â•‘¯¬96‰%å6;a6;a6‘¯Ûê0„³‡
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/bank_10.o
 		NAME bank_10
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/bank_6.o
@@ -1589,22 +1591,21 @@ MODULES
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/bank_9.o
 		NAME bank_9
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/data_ptrs.o
-		NAME C__Users_benja_AppData_Local_Tem˜ŞèÁ˜ŞèÁ‘×†É}bÊ.×b;}Kb;}Kb‘×ñ¾)0Â¸
+		NAME C__Users_benja_AppData_Local_TemĞl:•Ğl:•ÙeTKÏÁ6À-6sÏ™6sÏ™6Ùe#ê	Î‚k
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/main.o
-		NAME C__Users_benja_AppData_Local_Tem¸ßèÁ¸ßèÁ±Ö†É#|b×b|Kb|Kb±Öñ¾0¾X
+		NAME C__Users_benja_AppData_Local_TempQ:•pQ:•yXTëòÁ6€$6Óò™6Óò™6yX#êÅšƒ0
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/music_bank_11.o
 		NAME music_bank_11
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Adventure.o
-		NAME C__Users_benja_AppData_Local_Tem8Á8Á™VÉ·ÃbãIb3·›b3·›b™!¾h)f°
+		NAME C__Users_benja_AppData_Local_Tem˜áê•˜áê•‘è„B6äŠÍ6;BI6;BI6‘èóêĞŒj…s
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Platform.o
-		NAME C__Users_benja_AppData_Local_TemĞ8ÁĞ8ÁÙVÉK¡Ãby]bs¡›bs¡›bÙ!¾ +>\
+		NAME C__Users_benja_AppData_Local_Temøàê•øàê•ñé„cC6•ÕÍ6[CI6[CI6ñéóêôŒ¶„Ø
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/PointNClick.o
-		NAME C__Users_benja_AppData_Local_Temğ8Áğ8ÁùVÉkºÃb•«bSº›bSº›bù!¾Ì(Ús
+		NAME C__Users_benja_AppData_Local_TemØåê•Øåê•Ñì„CF6ªxÍ6{FI6{FI6ÑìóêhŒÒ…
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/Shmup.o
-		NAME C__Users_benja_AppData_Local_Temp8Áp8ÁyVÉë·Ãb
-bÓ·›bÓ·›by!¾|)js
+		NAME C__Users_benja_AppData_Local_Tem8êê•8êê•1ã„£I6'7Í6›II6›II61ãóê¬…\
 	FILE C:/Users/benja/AppData/Local/Temp/_gbsbuild/obj/TopDown.o
-		NAME C__Users_benja_AppData_Local_Tem8Á8ÁVÉ‹»Ãbîb³»›b³»›b!¾ø(Ö0
+		NAME C__Users_benja_AppData_Local_TemØãê•Øãê•Ñê„C@6`0Í6{@I6{@I6Ñêóê¨Œ’„
 LIBRARIES
 	LIBRARY C:\Users\benja\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
