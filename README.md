@@ -11,7 +11,7 @@ Download the ROM file or [Click here to play online!](https://shellywell123.gith
 
 ## To be developed:
 
- - larger sprite size (GB studio limited)
- - ollie/trick animation
- - grind mechanics
+ - larger sprite size (25 frame limit on 32x32 sprites)
+ - grind mechanics with double press controls
  - custom soundeffects and themetune
+ - better level design
