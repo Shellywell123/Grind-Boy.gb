@@ -3,11 +3,19 @@ Small Game Boy Game in the making.
 
 Skateboard playformer homebrew game for Nintendo GB, currently being made with GB Studio.
 
+(Beta-GamePlay)
 <p float="left">
   <img src="assets/git/preview.gif" width="600" />
 </p>
 
-Download the ROM file or [Click here to play online!](https://shellywell123.github.io/Grind_Boy/build/web/index.html)
+Download the ROM to play on orignal hardware:
+
+<p float="left">
+  <img src="assets/Consoles/GBC.gif" width="400" />
+  <img src="assets/Conseles/SNES.gif" width="200" />
+</p>
+
+Or [Click here to play online!](https://shellywell123.github.io/Grind_Boy/build/web/index.html)
 
 ## To be developed:
 
