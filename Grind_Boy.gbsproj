@@ -1,6 +1,6 @@
 {
     "name": "Grind Boy: Game to the Future",
-    "author": "shellywell123",
+    "author": "Shellywell123",
     "_version": "3.1.0",
     "_release": "3",
     "scenes": [
@@ -411,7 +411,7 @@
                     "args": {
                         "x": 5,
                         "y": 18,
-                        "speed": "3",
+                        "speed": 1,
                         "__collapse": false,
                         "__comment": false
                     }
@@ -875,7 +875,11 @@
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
-                        "customEventId": "8951ee1b-0604-41ee-b592-98b82ecce8a5"
+                        "customEventId": "8951ee1b-0604-41ee-b592-98b82ecce8a5",
+                        "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "0"
+                        }
                     },
                     "id": "576d7faf-e53a-43fa-a5e2-dee222cacca7"
                 }
@@ -79022,7 +79026,18 @@
             "id": "9c429600-b29b-4aef-9e35-54365dd2dbf1",
             "name": "Master",
             "description": "",
-            "variables": {},
+            "variables": {
+                "V6": {
+                    "id": "V6",
+                    "name": "Variable G",
+                    "passByReference": true
+                },
+                "V9": {
+                    "id": "V9",
+                    "name": "Variable J",
+                    "passByReference": true
+                }
+            },
             "actors": {},
             "symbol": "script_24",
             "script": [
@@ -79040,6 +79055,32 @@
                         "__comment": false
                     },
                     "id": "6ef8691f-1703-4c6c-b2a8-36d29e57391f"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "60489ac2-4392-4a7a-82c8-dfac73233bc0",
+                        "$variable[V4]$": {
+                            "type": "variable",
+                            "value": "V6"
+                        }
+                    },
+                    "id": "6e3e1fbd-5f92-441a-ad92-45acea1e6361"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "819c2149-bb01-4d61-a8fd-f1f469abcefc",
+                        "$variable[V4]$": {
+                            "type": "variable",
+                            "value": "V6"
+                        },
+                        "$variable[V6]$": {
+                            "type": "variable",
+                            "value": "V9"
+                        }
+                    },
+                    "id": "db25a355-02e1-4af4-93cd-352ef1e33f2a"
                 }
             ]
         },
@@ -79105,7 +79146,11 @@
                                         {
                                             "command": "EVENT_CALL_CUSTOM_EVENT",
                                             "args": {
-                                                "customEventId": "cae077e6-5f42-4bfc-a539-121082e07b0c"
+                                                "customEventId": "cae077e6-5f42-4bfc-a539-121082e07b0c",
+                                                "$variable[V1]$": {
+                                                    "type": "variable",
+                                                    "value": "1"
+                                                }
                                             },
                                             "id": "1341976e-dc57-45a9-9ba5-52f282b4341e"
                                         }
@@ -79399,7 +79444,7 @@
                                     "__comment": false,
                                     "$variable[V0]$": {
                                         "type": "variable",
-                                        "value": "V1"
+                                        "value": "2"
                                     }
                                 },
                                 "id": "31954f50-86cb-4ec1-adb4-42368327a5bf"
@@ -79511,6 +79556,156 @@
                         ],
                         "false": []
                     }
+                }
+            ]
+        },
+        {
+            "id": "60489ac2-4392-4a7a-82c8-dfac73233bc0",
+            "name": "Controls - Tricks",
+            "description": "",
+            "variables": {
+                "V4": {
+                    "id": "V4",
+                    "name": "grounded",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_28",
+            "script": [
+                {
+                    "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                    "args": {
+                        "field": "grounded",
+                        "variable": "V4"
+                    },
+                    "id": "64af2093-6ea9-4e89-bf20-b30331d4116b"
+                },
+                {
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "V4",
+                        "operator": "==",
+                        "comparator": 1,
+                        "__collapseElse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SET_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "b"
+                                    ],
+                                    "override": true,
+                                    "__scriptTabs": "press"
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                                            "args": {
+                                                "type": "crash",
+                                                "pitch": 4,
+                                                "frequency": 200,
+                                                "duration": 0.1,
+                                                "wait": true
+                                            },
+                                            "id": "536c3a33-d0ad-455f-8bb1-23b122422b89"
+                                        },
+                                        {
+                                            "command": "EVENT_PLAYER_BOUNCE",
+                                            "args": {
+                                                "height": "high"
+                                            },
+                                            "id": "902ed0df-6a32-432e-9fcc-61008bae0cd1"
+                                        }
+                                    ]
+                                },
+                                "id": "520614fc-b046-49f1-8205-0d5a8808f534"
+                            }
+                        ],
+                        "false": []
+                    },
+                    "id": "a47df979-b048-4d39-8d20-15d36d4ad11d"
+                }
+            ]
+        },
+        {
+            "id": "819c2149-bb01-4d61-a8fd-f1f469abcefc",
+            "name": "Sounds - Rolling",
+            "description": "",
+            "variables": {
+                "V4": {
+                    "id": "V4",
+                    "name": "grounded",
+                    "passByReference": true
+                },
+                "V6": {
+                    "id": "V6",
+                    "name": "xspeed",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_29",
+            "script": [
+                {
+                    "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                    "args": {
+                        "field": "grounded",
+                        "variable": "V4"
+                    },
+                    "id": "4e4cfcd0-cf3e-403f-aaa0-31d48d717696"
+                },
+                {
+                    "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                    "args": {
+                        "field": "pl_vel_x",
+                        "variable": "V6"
+                    },
+                    "id": "0ce6cedd-3200-4e78-bd5f-d189df74811e"
+                },
+                {
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "V4",
+                        "operator": "==",
+                        "comparator": 0,
+                        "__collapseElse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "V6",
+                                    "operator": "!=",
+                                    "comparator": "0",
+                                    "__collapseElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                                            "args": {
+                                                "type": "beep",
+                                                "pitch": 4,
+                                                "frequency": 200,
+                                                "duration": 0.5,
+                                                "wait": true
+                                            },
+                                            "id": "5096be4f-c766-43f6-8067-c806baa7e7c1"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "efb6330b-700e-4af1-84b2-dffebbeb04fa"
+                            }
+                        ],
+                        "false": []
+                    },
+                    "id": "5c9a4a82-fbf1-4610-ae62-c718bbadaac3"
                 }
             ]
         }
@@ -79988,8 +80183,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 200.8000030517578,
-        "worldScrollY": 532,
+        "worldScrollX": 198.39999389648438,
+        "worldScrollY": 0,
         "zoom": 133.33332061767578,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -80018,9 +80213,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "cf54fdc1-d36b-46be-9182-0fc15b1369e8",
         "navigatorSplitSizes": [
-            319,
-            207,
-            207
+            251,
+            163,
+            163
         ],
         "showNavigator": true,
         "defaultFontId": "2ebd2830-9818-4fa4-b87e-255b3ad20803",
