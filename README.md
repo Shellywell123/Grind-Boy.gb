@@ -1,20 +1,13 @@
 # Grind_Boy
 Small Game Boy Game in the making.
 
-Skateboard playformer homebrew game for Nintendo GB, currently being made with GB Studio.
+Skateboard playformer homebrew game for Nintendo GB, currently being made with GB Studio and modifying the engine that is written in C.
 
-<p float="left">
-  <img src="assets/git/preview.gif" width="600" />
-</p>
+To Play the Latest Demo V 1.1:
+Download the [ROM file](https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/build/rom/game.gb) or [Click here to play online!](https://shellywell123.github.io/Grind_Boy/build/web/index.html)
 
-Download the ROM file or [Click here to play online!](https://shellywell123.github.io/Grind_Boy/build/web/index.html)
-
-## To be developed:
-
- - larger sprite size (25 frame limit on 32x32 sprites)
- - charge to ollie, hold b will cause sprite to bend down and bounce higher
- - landing soundeffect
- - menu soundeffects
- - grind mechanics with double press controls
- - custom soundeffects and themetune
- - better level design
+## Planned Development:
+ - charge to ollie, holding `INPUT_B` will cause sprite to bend down and bounce higher on release of `INPUT_B`
+ - Improved Soundeffects (Pop/Landing/Rolling/Grinding)
+ - Lofi/Hip-Hop Music/themetune
+ - Grind Mechanics (previous demo had a grind mecanic using lots of triggers suttounding an object)
