@@ -6,6 +6,10 @@ Skateboard playformer homebrew game for Nintendo GB, currently being made with G
 To Play the Latest Demo V 1.1:
 Download the [ROM file](https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/build/rom/game.gb) or [Click here to play online!](https://shellywell123.github.io/Grind_Boy/build/web/index.html)
 
+<a href="https://shellywell123.github.io/Grind_Boy/build/web/index.html">
+  <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/screenshots/DemoV1.1.gif" width="175" />
+</a>
+
 ## Planned Development:
  - charge to ollie, holding `INPUT_B` will cause sprite to bend down and bounce higher on release of `INPUT_B`
  - Improved Soundeffects (Pop/Landing/Rolling/Grinding)
