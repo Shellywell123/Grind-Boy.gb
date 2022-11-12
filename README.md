@@ -3,6 +3,13 @@ Hombrew Skateboarding platformer game for the Nintendo GameBoy.
 Built with [GB Studio](https://www.gbstudio.dev/) + modifying the engine that is written in C.
 
 To Play the Latest Demo V 1.1:
+```
+Current Controls
+- A          = Push (Move)
+- LEFT/RIGHT = Kick Turn (change direction when stationary)
+- DOWN       = Tail Drag (Slow Down)
+- B          = Ollie (Jump)
+```
 Download the [ROM file](https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/build/rom/game.gb) or [Click here to play online!](https://shellywell123.github.io/Grind_Boy/build/web/index.html)
 
 <a href="https://shellywell123.github.io/Grind_Boy/build/web/index.html">
