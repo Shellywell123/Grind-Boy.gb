@@ -16,8 +16,10 @@ Download the [ROM file](https://github.com/Shellywell123/Grind_Boy/blob/GB-Studi
   <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/screenshots/DemoV1.1.gif" width="800" />
 </a>
 
-## Planned Development:
+## Upcomming/Planned Development:
  - Charge to ollie, holding `INPUT_B` will cause sprite to bend down and bounce higher on release of `INPUT_B`
+ - Flip tricks (Kickflip/Treflip/hardflip etc - number of tricks is restricted by animation and control limitation of the GameBoy)
+ - Nollie
  - Improved Soundeffects (Pop/Landing/Rolling/Grinding)
  - Lofi/Hip-Hop Music/themetune
  - Grind Mechanics (previous demo had a grind mecanic using lots of triggers suttounding an object)
