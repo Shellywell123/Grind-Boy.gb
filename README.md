@@ -16,7 +16,7 @@ Download the [ROM file](https://github.com/Shellywell123/Grind_Boy/blob/GB-Studi
   <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/screenshots/DemoV1.1.gif" width="800" />
 </a>
 
-## Upcomming/Planned Development:
+## Upcoming/Planned Development:
  - Charge to ollie, holding `B` will cause sprite to bend down and bounce higher on release of `B`
  - Flip tricks `B`+`Direction` (Kickflip/Treflip/hardflip etc - number of tricks is restricted by animation and control limitation of the GameBoy)
  - Nollie
