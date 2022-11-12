@@ -1,6 +1,4 @@
 # Grind_Boy
-Small Game Boy Game in the making.
-
 Hombrew Skateboarding platformer game for the Nintendo GameBoy.
 Built with [GB Studio](https://www.gbstudio.dev/) + modifying the engine that is written in C.
 
