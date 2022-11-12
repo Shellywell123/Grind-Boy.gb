@@ -6,10 +6,15 @@ To Play the Latest Demo V 1.1:
 The latest Demo is a simple stripped back version of the game with no obstacles being used to test/fine-tune the controls and animations.
 ```
 Current Controls
-- A          = Push (Move)
-- LEFT/RIGHT = Kick Turn (change direction when stationary)
-- DOWN       = Tail Drag (Slow Down)
-- B          = Ollie (Jump)
+----------------------------------------------------------------------------------
+| GameBoy Controls | Keyboard   | Action                                         |
+----------------------------------------------------------------------------------
+| START            | ENTER      | Pause Menu                                     |         
+| A                | z          | Push (Move)                                    |
+| LEFT/RIGHT       | LEFT/RIGHT | Kick Turn (change direction when stationary)   |
+| DOWN             | DOWN       | Tail Drag (Slow Down)                          |
+| B                | x          | Ollie (Jump)                                   |
+----------------------------------------------------------------------------------
 ```
 Download the [ROM file](https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/build/rom/game.gb) or [Click here to play online!](https://shellywell123.github.io/Grind_Boy/build/web/index.html)
 
