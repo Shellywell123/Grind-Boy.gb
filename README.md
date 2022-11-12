@@ -3,6 +3,7 @@ Hombrew Skateboarding platformer game for the Nintendo GameBoy.
 Built with [GB Studio](https://www.gbstudio.dev/) + modifying the engine that is written in C.
 
 To Play the Latest Demo V 1.1:
+The latest Demo is a simple stripped back version of the game with no obstacles being used to test/fine-tune the controls and animations.
 ```
 Current Controls
 - A          = Push (Move)
