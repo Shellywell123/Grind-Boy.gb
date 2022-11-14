@@ -1,6 +1,6 @@
 # Grind_Boy
 Hombrew Skateboarding platformer game for the Nintendo GameBoy.
-Built with [GB Studio](https://www.gbstudio.dev/) + modifying the engine that is written in C.
+Built with [GB Studio](https://www.gbstudio.dev/) GB studio is used to manage assets/scenes/menus and modifying the C engine governs the actual mechanics.
 
 To Play the Latest Demo V 1.1:
 The latest Demo is a simple stripped back version of the game with no obstacles being used to test/fine-tune the controls and animations.
@@ -18,16 +18,17 @@ Current Controls
 ----------------------------------------------------------------------------------
 | START            | ENTER      | Pause Menu                                     |         
 | A                | z          | Push (Move)                                    |
-| B                | x          | Ollie (Jump)                                   |
+| B                | x          | Ollie (Jump) - [Hold to charge up]             |
 | LEFT/RIGHT       | LEFT/RIGHT | Kick Turn (change direction when stationary)   |
 | DOWN             | DOWN       | Tail Drag (Slow Down)                          |
 ----------------------------------------------------------------------------------
 ```
 
 ## Upcoming/Planned Development:
- - Charge to ollie, holding `B` will cause sprite to bend down and bounce higher on release of `B`
+ - Fix menu redering issue, due to sprite animation over the limit
+ - Jump charging animation
  - Flip tricks `B`+`Direction` (Kickflip/Treflip/hardflip etc - number of tricks is restricted by animation and control limitation of the GameBoy)
  - Nollie
  - Improved Soundeffects (Pop/Landing/Rolling/Grinding)
- - Lofi/Hip-Hop Music/themetune
+ - Lofi/Hip-Hop Music/Themetune
  - Grind Mechanics (previous demo had a grind mecanic using lots of triggers suttounding an object)
