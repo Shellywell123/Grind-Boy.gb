@@ -1,6 +1,8 @@
 # Grind_Boy
 Hombrew Skateboarding platformer game for the Nintendo GameBoy.
-Built with [GB Studio](https://www.gbstudio.dev/) GB studio is used to manage assets/scenes/menus and modifying the C engine governs the actual mechanics.
+Built with [GB Studio](https://www.gbstudio.dev/). 
+
+GB studio is used to manage assets/scenes/menus and modifying the C engine governs the actual mechanics.
 
 To Play the Latest Demo V 1.1:
 The latest Demo is a simple stripped back version of the game with no obstacles being used to test/fine-tune the controls and animations.
