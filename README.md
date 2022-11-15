@@ -14,23 +14,31 @@ Download the [ROM file](https://github.com/Shellywell123/Grind_Boy/blob/GB-Studi
 </a>
 
 ```
-Current Controls
+Controls
 ----------------------------------------------------------------------------------
 | GameBoy Controls | Keyboard   | Action                                         |
 ----------------------------------------------------------------------------------
 | START            | ENTER      | Pause Menu                                     |         
 | A                | z          | Push (Move)                                    |
-| B                | x          | Ollie (Jump) - [Hold to charge up]             |
+| B                | x          | Ollie (Jump) - [Hold to increase hieght]       |
 | LEFT/RIGHT       | LEFT/RIGHT | Kick Turn (change direction when stationary)   |
 | DOWN             | DOWN       | Tail Drag (Slow Down)                          |
 ----------------------------------------------------------------------------------
 ```
 
 ## Upcoming/Planned Development:
- - Fix menu redering issue, due to sprite animation over the limit
- - Jump charging animation
- - Flip tricks `B`+`Direction` (Kickflip/Treflip/hardflip etc - number of tricks is restricted by animation and control limitation of the GameBoy)
- - Nollie
- - Improved Soundeffects (Pop/Landing/Rolling/Grinding)
- - Lofi/Hip-Hop Music/Themetune
- - Grind Mechanics (previous demo had a grind mecanic using lots of triggers suttounding an object)
+ - prevent jump while pushing/stopping
+ - Improve/Add Soundeffects (Menu/Pop/Landing/Rolling/Grinding)
+ - Add Lofi/Hip-Hop Music/Themetune
+ - `GB STUDIO ACTOR LIMIT MET` menu rendering issue (work around could be to use a new scence)
+ - `GB STUDIO ACTOR LIMIT MET` Flip tricks `B`+`Direction` (Kickflip animation already made)
+ - `GB STUDIO ACTOR LIMIT MET` Nollie
+ - `GB STUDIO ACTOR LIMIT MET` Grind Mechanics (previous demo had a grind mecanic using triggers surrounding an object)
+ - `GB STUDIO TILE LIMIT MET` Credits rendering issue
+ - Improve Intro
+ - Improve Level Design (add obstacles - stairs/grinds/man-holes)
+ - Animated background tiles
+ - Multiple Zones (Soutbank/Macba/berrics)
+ - Colors (currently like the classic DMG color scheme)
+
+I need to learn how to call animation states and sound effects within the engine, to prevent repeating logic for animations + movement.
