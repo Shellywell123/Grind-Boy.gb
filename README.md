@@ -25,20 +25,21 @@ Controls
 | DOWN             | DOWN       | Tail Drag (Slow Down)                          |
 ----------------------------------------------------------------------------------
 ```
-
+ 
 ## Upcoming/Planned Development:
  - prevent jump while pushing/stopping
  - Improve/Add Soundeffects (Menu/Pop/Landing/Rolling/Grinding)
  - Add Lofi/Hip-Hop Music/Themetune
  - `GB STUDIO ACTOR LIMIT MET` menu rendering issue (work around could be to use a new scence)
  - `GB STUDIO ACTOR LIMIT MET` Flip tricks `B`+`Direction` (Kickflip animation already made)
+ - `GB STUDIO ACTOR LIMIT MET` Bail Animations
  - `GB STUDIO ACTOR LIMIT MET` Nollie
- - `GB STUDIO ACTOR LIMIT MET` Grind Mechanics (previous demo had a grind mecanic using triggers surrounding an object)
+ - `GB STUDIO ACTOR LIMIT MET` Grind Mechanics (down to drop down)
  - `GB STUDIO TILE LIMIT MET` Credits rendering issue
  - Improve Intro
  - Improve Level Design (add obstacles - stairs/grinds/man-holes)
- - Animated background tiles
- - Multiple Zones (Soutbank/Macba/berrics)
+ - Animated background tiles (intro floor)
+ - More Zones (berrics/el-toro/carsbad/cali(beach))
  - Colors (currently like the classic DMG color scheme)
 
 I need to learn how to call animation states and sound effects within the engine, to prevent repeating logic for animations + movement.

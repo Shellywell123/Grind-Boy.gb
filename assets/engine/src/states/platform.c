@@ -45,6 +45,7 @@ WORD plat_jump_vel;
 WORD plat_grav;
 WORD plat_hold_grav;
 WORD plat_max_fall_vel;
+WORD charge;
 
 void platform_init() BANKED {
     UBYTE tile_x, tile_y;
@@ -80,6 +81,7 @@ void platform_init() BANKED {
     camera_deadzone_y = PLATFORM_CAMERA_DEADZONE_Y;
 
     game_time = 0;
+    charge = 0;
 }
 
 void platform_update() BANKED {
@@ -159,6 +161,7 @@ void platform_update() BANKED {
             //     // }
             // }
 
+            // ----------------------------------------------------------
             // press A to push 
             if ((INPUT_A) && PLAYER.dir == DIR_LEFT)
             {
@@ -181,7 +184,8 @@ void platform_update() BANKED {
                 camera_offset_x = CLAMP(camera_offset_x, -50, 0);
             }
 
-            // press down to slowdown
+            // ----------------------------------------------------------
+            // press Down to slowdown
             if ((INPUT_DOWN) && PLAYER.dir == DIR_LEFT && pl_vel_x < 0)
             {
                 // decrease player speed
@@ -207,7 +211,7 @@ void platform_update() BANKED {
                 camera_offset_x = CLAMP(camera_offset_x, -50, 0);
             }
         
-
+            // ----------------------------------------------------------   
             // left and right to change direction when not moving
             if (INPUT_LEFT && (pl_vel_x ==0))
             {
@@ -218,7 +222,7 @@ void platform_update() BANKED {
                 actor_set_dir(&PLAYER, DIR_RIGHT, TRUE);
             }
             
-
+            // ----------------------------------------------------------
             // slow down if moving and not pushing
             if (pl_vel_x < 0) {
                 //actor_set_anim(&PLAYER, ANIM_MOVE);
@@ -394,10 +398,35 @@ void platform_update() BANKED {
         }
     }
 
+    // Charge Jump
+    if (INPUT_PLATFORM_JUMP&& grounded && can_jump)
+    {
+        charge+=1;
+    }
     // Jump
-    if (INPUT_PRESSED(INPUT_PLATFORM_JUMP) && grounded && can_jump) {
-        pl_vel_y = -plat_jump_vel;
+    if (charge > 0  && !INPUT_PRESSED(INPUT_PLATFORM_JUMP) && !INPUT_PLATFORM_JUMP && grounded && can_jump) {
+
+        // cancel jump if you pushing / stopping
+        if (!INPUT_PRESSED(INPUT_PLATFORM_JUMP) || !INPUT_PLATFORM_JUMP || !INPUT_PRESSED(INPUT_DOWN) || !INPUT_DOWN )
+        {
+            // little jump
+            if (charge < 20){
+                pl_vel_y = -16000;
+            }
+            // medium jump
+            else if (20 <= charge && charge < 30)
+            {
+                pl_vel_y = -20000;
+            }
+            // high jump
+            else if (30 <= charge)
+            {
+                pl_vel_y = -25000;
+            }
+        }
+        
         grounded = FALSE;
+        charge = 0;
     }
 
     // Player animation 
