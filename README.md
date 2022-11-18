@@ -4,7 +4,7 @@
 <td>
   
 <a >
-  <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/Product/Banner.png" width="175" />
+  <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/Product/Banner.png" width="350" />
 </a>
   
 </pre>
