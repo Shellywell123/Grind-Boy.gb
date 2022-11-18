@@ -12,7 +12,7 @@
 <td>
   
 <a >
-  <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/Product/BoxCover.png" width="175" />
+  <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/Product/BoxCover.png" width="150" />
 </a>
   
 </pre>
@@ -20,7 +20,7 @@
 <td>
 
 <a >
-  <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/Product/Cartridge.png" width="175" />
+  <img src="https://github.com/Shellywell123/Grind_Boy/blob/GB-Studio-3.1/assets/Product/Cartridge.png" width="75" />
 </a>
 
 </td>
