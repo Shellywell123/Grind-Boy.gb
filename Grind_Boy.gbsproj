@@ -187,10 +187,10 @@
                     "id": "65b935b6-8ced-440f-a216-45da1394758b",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "1b38f4e2-de56-40b3-abae-2b9f6609058a",
+                        "musicId": "97371eea-dcb1-4a94-a62b-42a7bb693cd4",
                         "loop": true,
                         "__collapse": false,
-                        "__comment": true
+                        "__comment": false
                     }
                 },
                 {
@@ -5795,6 +5795,11 @@
             "autoFadeSpeed": 1,
             "tileColors": [],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {},
+                    "id": "d15858b4-ef85-4f1d-b6e6-85712daaa4ad"
+                },
                 {
                     "id": "4a5e589e-1dcb-4044-aa9a-182f48a63e1b",
                     "command": "EVENT_MUSIC_PLAY",
@@ -38664,6 +38669,22 @@
             "type": "mod"
         },
         {
+            "id": "c867dd96-f083-48a6-b321-d3072c6a433b",
+            "name": "htest",
+            "symbol": "song_htest",
+            "filename": "htest.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "97371eea-dcb1-4a94-a62b-42a7bb693cd4",
+            "name": "htest2",
+            "symbol": "song_htest2",
+            "filename": "htest2.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -39052,8 +39073,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 1164,
-        "worldScrollY": 1599,
+        "worldScrollX": 839,
+        "worldScrollY": 1066,
         "zoom": 191.66665649414062,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -39097,7 +39118,7 @@
             "POINTNCLICK": "804376b0-a429-4000-9868-4231386f5c3f",
             "LOGO": "804376b0-a429-4000-9868-4231386f5c3f"
         },
-        "musicDriver": "gbt",
+        "musicDriver": "huge",
         "cartType": "mbc5",
         "batterylessEnabled": false,
         "favoriteEvents": [
