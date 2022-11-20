@@ -90,3 +90,9 @@ Download the [ROM file](https://github.com/Shellywell123/Grind_Boy/blob/GB-Studi
  - Colors (currently like the classic DMG color scheme)
 
 I need to learn how to call animation states and sound effects within the engine, to prevent repeating logic for animations + movement.
+
+
+## Development Tools:
+- GB Studio Docs https://www.gbstudio.dev/docs/
+- Music Tool Convert `.mod` to `.uge` https://github.com/SuperDisk/hUGETracker/releases/tag/1.0b9
+- Plugins - Engine/player Field scripts https://github.com/pau-tomas/gb-studio-plugins
