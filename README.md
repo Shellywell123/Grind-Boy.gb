@@ -61,15 +61,16 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
 ## Level Design Progress
  ```
 ----------------------------------------------------------------------------------
-| Zone         | Added | Map Finished | Obstacles Added        | Parralax        |
+| Zone                  | Added | Map Finished | Obstacles Added | Parralax      |
 ----------------------------------------------------------------------------------
-| Southbank    | Y     | N            | N                      | Y               |
-| MACBA        | Y     | N            | Y                      | N               |
-| Love Park    | Y     | N            | N                      | Y               |
-| Berrics      | N     | -            | -                      | -               |
-| El Toro      | N     | -            | -                      | -               |
-| Carlsbad     | N     | -            | -                      | -               |
-| Cali Beach   | N     | -            | -                      | -               |
+| Skate-School/Woodward | Y     | N            | N               | Y             |
+| Southbank             | Y     | N            | N               | Y             |
+| MACBA                 | Y     | N            | Y               | N             |
+| Love Park             | Y     | N            | N               | Y             |
+| Berrics               | N     | -            | -               | -             |
+| El Toro               | N     | -            | -               | -             |
+| Carlsbad              | N     | -            | -               | -             |
+| Cali Beach            | N     | -            | -               | -             |
 ----------------------------------------------------------------------------------
 ```
 
