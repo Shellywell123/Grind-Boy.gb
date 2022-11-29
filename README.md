@@ -36,7 +36,7 @@ The current vision of the game is to create a somewhat realistic 2D skateboardin
 
 The early beta version of Grind Boy was more arcade themed using a smaller sprite and mario-like controls. Allowing the player to progress though a timeline of levels by jumping into the screens of various retro Nintendo consoles, with retro styled maps (mario-bros/tetris/pacman) that can be found in the assets folder. I may reuse them as a easteregg.
 
-## Play the Latest Demo V 1.1
+## Play the Latest Demo V 1.2
 The latest Demo is a simple stripped back version of the game being used to test/fine-tune the controls and animations.
 
 Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studio-3.1/build/rom/game.gb) or [Click here to play online!](https://shellywell123.github.io/Grind-Boy/build/web/index.html)
