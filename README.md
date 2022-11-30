@@ -78,7 +78,7 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
 ```
 
 ## Upcoming/Planned Development:
- = Main issue is the sprite limit is causing the menu borders to incorrectly render aswell as limiting the number of animations for the player. 
+ = Main issue is the sprite limit is restricts the number of allowed animations for the player. 
  - `GB STUDIO ACTOR LIMIT MET` menu rendering issue (work around could be to use a new scence)
  - `GB STUDIO ACTOR LIMIT MET` Flip tricks `B`+`Direction` (Kickflip animation already made)
  - `GB STUDIO ACTOR LIMIT MET` Bail Animations (Collisions/board not finished flipping)
@@ -86,15 +86,20 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
  - `GB STUDIO ACTOR LIMIT MET` Grind Mechanics (down to drop down / early pop out)
  - `GB STUDIO TILE LIMIT MET` Credits rendering issue
  - Prevent jump while pushing/stopping
- - Improve/Add Soundeffects (Menu/Pop/Landing/Rolling/Grinds)
+ - Add Soundeffects (Menu/Pop/Landing/Rolling/Grinds)
  - Add Lofi/Hip-Hop Music/Themetune
- - Improve Intro
  - Improve Level Design (add obstacles - stairs/grinds/man-holes)
- - Animated background tiles (intro floor)
- - Continue/Improve Level Design
- - Colors (currently like the classic DMG color scheme)
+ - Animated background tiles (intro floor, ocean)
+ - Aircraft Shadows (to improve perspective)
+ - 8 Directional Dynamic compass
+ - Colors (Retro Gameboy style pallettes throughout)
 
-I need to learn how to call animation states and sound effects within the engine, to prevent repeating logic for animations + movement.
+I need to learn how to call animation states and sound effects within the engine, to prevent repeating logic for animations + movement in visual code.
+
+## Project Blueprints
+<a>
+  <img src="https://github.com/Shellywell123/Grind-Boy/blob/GB-Studio-3.1/assets/screenshots/Blueprints-V1.2.png" width="800" />
+</a>
 
 ## Development Tools:
 - GB Studio Docs https://www.gbstudio.dev/docs/
