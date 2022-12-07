@@ -88,12 +88,15 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
  - Animated background tiles (intro floor, ocean)
  - Aircraft Shadows (to improve perspective)
  - 8-Directional Dynamic compass
+ 
 = Audio
  - Add Soundeffects (Menu/Pop/Landing/Rolling/Grinds)
- - Add Lofi/Hip-Hop Tracks
+ - Add Lofi/Hip-Hop 
+ 
 = Backgrounds
  - Improve Level Design (add obstacles - stairs/grinds/man-holes)
  - Colors (Retro Gameboy style pallettes throughout)
+ 
 = Engine
  - Re-add old Platformer engine feautures to include old maps
 
