@@ -78,9 +78,7 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
 ```
 
 ## Upcoming/Planned Development:
- = Bugs/Crashs
- - Globe scence crash - reason still unknown
- = Animation : Main issue is the sprite limit is restricts the number of allowed animations for the player. 
+### Animation : Main issue is the sprite limit is restricts the number of allowed animations for the player. 
  - `GB STUDIO ACTOR LIMIT MET` menu rendering issue (work around could be to use a new scence)
  - `GB STUDIO ACTOR LIMIT MET` Flip tricks `B`+`Direction` (Kickflip animation already made)
  - `GB STUDIO ACTOR LIMIT MET` Bail Animations (Collisions/board not finished flipping)
@@ -90,13 +88,16 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
  - Animated background tiles (intro floor, ocean)
  - Aircraft Shadows (to improve perspective)
  - 8-Directional Dynamic compass
- = Audio
+ 
+### Audio
  - Add Soundeffects (Menu/Pop/Landing/Rolling/Grinds)
- - Add Lofi/Hip-Hop Tracks
- = Backgrounds
+ - Add Lofi/Hip-Hop 
+ 
+### Backgrounds
  - Improve Level Design (add obstacles - stairs/grinds/man-holes)
  - Colors (Retro Gameboy style pallettes throughout)
- = Engine
+ 
+### Engine
  - Re-add old Platformer engine feautures to include old maps
 
 I need to learn how to call animation states and sound effects within the engine, to prevent repeating logic for animations + movement in visual code.
