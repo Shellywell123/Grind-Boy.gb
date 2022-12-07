@@ -75082,24 +75082,135 @@
                                 "id": "0a6ef3c7-c4e8-4e72-bc6e-b070c9b80005"
                             },
                             {
-                                "id": "8ac76ff1-5de3-4a6e-83af-9d6a943fc249",
-                                "command": "EVENT_MENU",
+                                "command": "EVENT_ACTOR_HIDE",
+                                "args": {
+                                    "actorId": "$self$"
+                                },
+                                "id": "0adb73f2-e6a0-49f3-929d-4cc0113dfe32"
+                            },
+                            {
+                                "command": "PT_EVENT_ADVANCED_MENU",
                                 "args": {
                                     "variable": "34",
-                                    "items": 3,
-                                    "option1": "Controls",
-                                    "option2": "Fly",
-                                    "option3": "- Back",
-                                    "option4": "-Back",
-                                    "option5": "",
-                                    "option6": "",
-                                    "option7": "",
-                                    "option8": "",
-                                    "cancelOnB": true,
-                                    "layout": "menu",
-                                    "__collapse": false,
-                                    "cancelOnLastOption": true
-                                }
+                                    "__scriptTabs": "items",
+                                    "width": 10,
+                                    "height": 7,
+                                    "from": "right",
+                                    "items": 4,
+                                    "option_1_text": "Call Hank",
+                                    "option1_x": 1,
+                                    "option1_y": 1,
+                                    "option1_l": 0,
+                                    "option1_r": 0,
+                                    "option1_u": 0,
+                                    "option1_d": 2,
+                                    "option_2_text": "Fly",
+                                    "option2_x": 1,
+                                    "option2_y": 2,
+                                    "option2_l": 0,
+                                    "option2_r": 0,
+                                    "option2_u": 1,
+                                    "option2_d": 3,
+                                    "option_3_text": "Home",
+                                    "option3_x": 1,
+                                    "option3_y": 3,
+                                    "option3_l": 0,
+                                    "option3_r": 0,
+                                    "option3_u": 2,
+                                    "option3_d": 5,
+                                    "option_4_text": "-Back",
+                                    "option4_x": 1,
+                                    "option4_y": 5,
+                                    "option4_l": 0,
+                                    "option4_r": 0,
+                                    "option4_u": 3,
+                                    "option4_d": 1,
+                                    "option_5_text": "e",
+                                    "option5_x": 1,
+                                    "option5_y": 5,
+                                    "option5_l": 0,
+                                    "option5_r": 0,
+                                    "option5_u": 4,
+                                    "option5_d": 0,
+                                    "option_6_text": "",
+                                    "option6_x": 0,
+                                    "option6_y": 0,
+                                    "option6_l": 0,
+                                    "option6_r": 0,
+                                    "option6_u": 0,
+                                    "option6_d": 0,
+                                    "option_7_text": "",
+                                    "option7_x": 0,
+                                    "option7_y": 0,
+                                    "option7_l": 0,
+                                    "option7_r": 0,
+                                    "option7_u": 0,
+                                    "option7_d": 0,
+                                    "option_8_text": "",
+                                    "option8_x": 0,
+                                    "option8_y": 0,
+                                    "option8_l": 0,
+                                    "option8_r": 0,
+                                    "option8_u": 0,
+                                    "option8_d": 0,
+                                    "option_9_text": "",
+                                    "option9_x": 0,
+                                    "option9_y": 0,
+                                    "option9_l": 0,
+                                    "option9_r": 0,
+                                    "option9_u": 0,
+                                    "option9_d": 0,
+                                    "option_10_text": "",
+                                    "option10_x": 0,
+                                    "option10_y": 0,
+                                    "option10_l": 0,
+                                    "option10_r": 0,
+                                    "option10_u": 0,
+                                    "option10_d": 0,
+                                    "option_11_text": "",
+                                    "option11_x": 0,
+                                    "option11_y": 0,
+                                    "option11_l": 0,
+                                    "option11_r": 0,
+                                    "option11_u": 0,
+                                    "option11_d": 0,
+                                    "option_12_text": "",
+                                    "option12_x": 0,
+                                    "option12_y": 0,
+                                    "option12_l": 0,
+                                    "option12_r": 0,
+                                    "option12_u": 0,
+                                    "option12_d": 0,
+                                    "option_13_text": "",
+                                    "option13_x": 0,
+                                    "option13_y": 0,
+                                    "option13_l": 0,
+                                    "option13_r": 0,
+                                    "option13_u": 0,
+                                    "option13_d": 0,
+                                    "option_14_text": "",
+                                    "option14_x": 0,
+                                    "option14_y": 0,
+                                    "option14_l": 0,
+                                    "option14_r": 0,
+                                    "option14_u": 0,
+                                    "option14_d": 0,
+                                    "option_15_text": "",
+                                    "option15_x": 0,
+                                    "option15_y": 0,
+                                    "option15_l": 0,
+                                    "option15_r": 0,
+                                    "option15_u": 0,
+                                    "option15_d": 0,
+                                    "option_16_text": "",
+                                    "option16_x": 0,
+                                    "option16_y": 0,
+                                    "option16_l": 0,
+                                    "option16_r": 0,
+                                    "option16_u": 0,
+                                    "option16_d": 0
+                                },
+                                "id": "53a9766e-bd8f-4873-a52d-6414dd08e70a"
                             },
                             {
                                 "id": "23628113-b547-426a-8c3a-2e9d97cf5b87",
@@ -75121,43 +75232,33 @@
                                             "id": "64913ef2-d098-4d6a-9676-aff0aa5ae6ed"
                                         },
                                         {
-                                            "id": "1d2d3298-a705-40d1-bf1b-8c86092b0bb6",
-                                            "command": "EVENT_TEXT",
+                                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
                                             "args": {
+                                                "__scriptTabs": "layout",
+                                                "minHeight": 7,
+                                                "maxHeight": 7,
+                                                "showBorder": "true",
+                                                "textX": 0,
+                                                "textY": 1,
+                                                "textHeight": 3,
+                                                "closeWhen": "key",
+                                                "closeButton": "a",
+                                                "clearPrevious": true,
                                                 "text": [
                                                     "hello, did someone \ncall for a legend, \nbecause here I am.",
                                                     "As you have the\nmemory of a Goldfish \nHere's a reminder..",
                                                     "Push.     : A\nStop      : Down\nOllie       : B\nSwap Dir: Left-Right"
                                                 ],
                                                 "avatarId": "091038c7-4dba-482f-ba0a-78fdd8e2bd3e"
-                                            }
-                                        }
-                                    ],
-                                    "false": []
-                                }
-                            },
-                            {
-                                "id": "55cbf876-871c-4bb2-9150-2b8f3f5c2448",
-                                "command": "EVENT_IF_VALUE",
-                                "args": {
-                                    "variable": "34",
-                                    "operator": "==",
-                                    "comparator": 2,
-                                    "__collapseElse": false,
-                                    "__disableElse": true,
-                                    "__comment": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "id": "08a7f399-d36e-4260-a9b0-d606cc10c53e",
-                                            "command": "EVENT_SAVE_DATA",
-                                            "args": {
-                                                "saveSlot": 0
                                             },
-                                            "children": {
-                                                "true": []
-                                            }
+                                            "id": "9462959d-1e62-4a0e-b5e0-3b52fe2728f3"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SHOW",
+                                            "args": {
+                                                "actorId": "$self$"
+                                            },
+                                            "id": "289d9dc4-0290-4c32-9778-308db6378213"
                                         }
                                     ],
                                     "false": []
@@ -75293,9 +75394,82 @@
                                     ],
                                     "false": []
                                 }
+                            },
+                            {
+                                "id": "55cbf876-871c-4bb2-9150-2b8f3f5c2448",
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "34",
+                                    "operator": "==",
+                                    "comparator": 3,
+                                    "__collapseElse": false,
+                                    "__disableElse": true,
+                                    "__comment": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "67b43102-7fe8-4820-baed-2fc5fd459e8a"
+                                            },
+                                            "id": "6fe7708d-6dbe-4aad-8ec7-c54ac5d01e6d"
+                                        },
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "15361182-508e-4d82-8a44-83fc94983c91",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "a171c7bf-add6-4674-8277-c8fec9a09380"
+                                        }
+                                    ],
+                                    "false": []
+                                }
+                            },
+                            {
+                                "id": "fa598867-acf4-476e-8d69-836efd11ef71",
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "34",
+                                    "operator": "==",
+                                    "comparator": 4,
+                                    "__collapseElse": false,
+                                    "__disableElse": true,
+                                    "__comment": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "67b43102-7fe8-4820-baed-2fc5fd459e8a"
+                                            },
+                                            "id": "e8fcd02b-7866-4a51-a9ec-4c9a9710eb26"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SHOW",
+                                            "args": {
+                                                "actorId": "$self$"
+                                            },
+                                            "id": "2e4a49cf-b441-4c59-8357-0279c7de82aa"
+                                        }
+                                    ],
+                                    "false": []
+                                }
                             }
                         ]
                     }
+                },
+                {
+                    "command": "EVENT_ACTOR_SHOW",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "1dca4873-8e56-44b5-8986-0467df415bd3"
                 }
             ]
         },
@@ -75425,6 +75599,131 @@
                     "children": {
                         "true": [
                             {
+                                "command": "PT_EVENT_ADVANCED_MENU",
+                                "args": {
+                                    "variable": "V0",
+                                    "__scriptTabs": "items",
+                                    "width": 14,
+                                    "height": 5,
+                                    "from": "right",
+                                    "items": 3,
+                                    "option_1_text": "Tutorial",
+                                    "option1_x": 1,
+                                    "option1_y": 1,
+                                    "option1_l": 1,
+                                    "option1_r": 1,
+                                    "option1_u": 1,
+                                    "option1_d": 2,
+                                    "option_2_text": "Free Roam",
+                                    "option2_x": 1,
+                                    "option2_y": 2,
+                                    "option2_l": 1,
+                                    "option2_r": 1,
+                                    "option2_u": 1,
+                                    "option2_d": 3,
+                                    "option_3_text": "Credits",
+                                    "option3_x": 1,
+                                    "option3_y": 3,
+                                    "option3_l": 1,
+                                    "option3_r": 1,
+                                    "option3_u": 2,
+                                    "option3_d": 3,
+                                    "option_4_text": "",
+                                    "option4_x": 0,
+                                    "option4_y": 0,
+                                    "option4_l": 0,
+                                    "option4_r": 0,
+                                    "option4_u": 0,
+                                    "option4_d": 0,
+                                    "option_5_text": "",
+                                    "option5_x": 0,
+                                    "option5_y": 0,
+                                    "option5_l": 0,
+                                    "option5_r": 0,
+                                    "option5_u": 0,
+                                    "option5_d": 0,
+                                    "option_6_text": "",
+                                    "option6_x": 0,
+                                    "option6_y": 0,
+                                    "option6_l": 0,
+                                    "option6_r": 0,
+                                    "option6_u": 0,
+                                    "option6_d": 0,
+                                    "option_7_text": "",
+                                    "option7_x": 0,
+                                    "option7_y": 0,
+                                    "option7_l": 0,
+                                    "option7_r": 0,
+                                    "option7_u": 0,
+                                    "option7_d": 0,
+                                    "option_8_text": "",
+                                    "option8_x": 0,
+                                    "option8_y": 0,
+                                    "option8_l": 0,
+                                    "option8_r": 0,
+                                    "option8_u": 0,
+                                    "option8_d": 0,
+                                    "option_9_text": "",
+                                    "option9_x": 0,
+                                    "option9_y": 0,
+                                    "option9_l": 0,
+                                    "option9_r": 0,
+                                    "option9_u": 0,
+                                    "option9_d": 0,
+                                    "option_10_text": "",
+                                    "option10_x": 0,
+                                    "option10_y": 0,
+                                    "option10_l": 0,
+                                    "option10_r": 0,
+                                    "option10_u": 0,
+                                    "option10_d": 0,
+                                    "option_11_text": "",
+                                    "option11_x": 0,
+                                    "option11_y": 0,
+                                    "option11_l": 0,
+                                    "option11_r": 0,
+                                    "option11_u": 0,
+                                    "option11_d": 0,
+                                    "option_12_text": "",
+                                    "option12_x": 0,
+                                    "option12_y": 0,
+                                    "option12_l": 0,
+                                    "option12_r": 0,
+                                    "option12_u": 0,
+                                    "option12_d": 0,
+                                    "option_13_text": "",
+                                    "option13_x": 0,
+                                    "option13_y": 0,
+                                    "option13_l": 0,
+                                    "option13_r": 0,
+                                    "option13_u": 0,
+                                    "option13_d": 0,
+                                    "option_14_text": "",
+                                    "option14_x": 0,
+                                    "option14_y": 0,
+                                    "option14_l": 0,
+                                    "option14_r": 0,
+                                    "option14_u": 0,
+                                    "option14_d": 0,
+                                    "option_15_text": "",
+                                    "option15_x": 0,
+                                    "option15_y": 0,
+                                    "option15_l": 0,
+                                    "option15_r": 0,
+                                    "option15_u": 0,
+                                    "option15_d": 0,
+                                    "option_16_text": "",
+                                    "option16_x": 0,
+                                    "option16_y": 0,
+                                    "option16_l": 0,
+                                    "option16_r": 0,
+                                    "option16_u": 0,
+                                    "option16_d": 0,
+                                    "__comment": true
+                                },
+                                "id": "65f974d7-a563-4b2e-b280-49adc0edbf66"
+                            },
+                            {
                                 "command": "EVENT_MENU",
                                 "args": {
                                     "variable": "V0",
@@ -75438,7 +75737,8 @@
                                     "option7": "",
                                     "option8": "",
                                     "cancelOnB": false,
-                                    "layout": "menu"
+                                    "layout": "menu",
+                                    "__comment": false
                                 },
                                 "id": "34e3a01a-b268-41b0-84c9-5c53d00902f3"
                             },
@@ -75459,18 +75759,6 @@
                                                 "customEventId": "67b43102-7fe8-4820-baed-2fc5fd459e8a"
                                             },
                                             "id": "a0bdb3a3-beb7-4ffd-8e57-d53057a8f083"
-                                        },
-                                        {
-                                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                                            "args": {
-                                                "customEventId": "cae077e6-5f42-4bfc-a539-121082e07b0c",
-                                                "$variable[V1]$": {
-                                                    "type": "variable",
-                                                    "value": "1"
-                                                },
-                                                "__comment": true
-                                            },
-                                            "id": "1341976e-dc57-45a9-9ba5-52f282b4341e"
                                         },
                                         {
                                             "id": "9a77a1d0-751a-40bf-8971-d6ce14a9bf63",
@@ -76033,24 +76321,135 @@
                                 "id": "20047d4d-6eba-4c49-b74c-f17311aac48f"
                             },
                             {
-                                "id": "b77a7457-2cd3-4db9-8b26-fae860640a8a",
-                                "command": "EVENT_MENU",
+                                "command": "EVENT_ACTOR_HIDE",
+                                "args": {
+                                    "actorId": "$self$"
+                                },
+                                "id": "c5938a43-b25b-4d39-b94f-f4c981deb98f"
+                            },
+                            {
+                                "command": "PT_EVENT_ADVANCED_MENU",
                                 "args": {
                                     "variable": "34",
-                                    "items": 2,
-                                    "option1": "Controls",
-                                    "option2": "-back",
-                                    "option3": "- Back",
-                                    "option4": "-Back",
-                                    "option5": "",
-                                    "option6": "",
-                                    "option7": "",
-                                    "option8": "",
-                                    "cancelOnB": true,
-                                    "layout": "menu",
-                                    "__collapse": false,
-                                    "cancelOnLastOption": true
-                                }
+                                    "__scriptTabs": "text",
+                                    "width": 10,
+                                    "height": 6,
+                                    "from": "right",
+                                    "items": 3,
+                                    "option_1_text": "Call Hank",
+                                    "option1_x": 1,
+                                    "option1_y": 1,
+                                    "option1_l": 0,
+                                    "option1_r": 0,
+                                    "option1_u": 0,
+                                    "option1_d": 2,
+                                    "option_2_text": "Home",
+                                    "option2_x": 1,
+                                    "option2_y": 2,
+                                    "option2_l": 0,
+                                    "option2_r": 0,
+                                    "option2_u": 1,
+                                    "option2_d": 4,
+                                    "option_3_text": "-Back",
+                                    "option3_x": 1,
+                                    "option3_y": 4,
+                                    "option3_l": 0,
+                                    "option3_r": 0,
+                                    "option3_u": 2,
+                                    "option3_d": 1,
+                                    "option_4_text": "d",
+                                    "option4_x": 1,
+                                    "option4_y": 4,
+                                    "option4_l": 0,
+                                    "option4_r": 0,
+                                    "option4_u": 3,
+                                    "option4_d": 5,
+                                    "option_5_text": "e",
+                                    "option5_x": 1,
+                                    "option5_y": 5,
+                                    "option5_l": 0,
+                                    "option5_r": 0,
+                                    "option5_u": 4,
+                                    "option5_d": 0,
+                                    "option_6_text": "",
+                                    "option6_x": 0,
+                                    "option6_y": 0,
+                                    "option6_l": 0,
+                                    "option6_r": 0,
+                                    "option6_u": 0,
+                                    "option6_d": 0,
+                                    "option_7_text": "",
+                                    "option7_x": 0,
+                                    "option7_y": 0,
+                                    "option7_l": 0,
+                                    "option7_r": 0,
+                                    "option7_u": 0,
+                                    "option7_d": 0,
+                                    "option_8_text": "",
+                                    "option8_x": 0,
+                                    "option8_y": 0,
+                                    "option8_l": 0,
+                                    "option8_r": 0,
+                                    "option8_u": 0,
+                                    "option8_d": 0,
+                                    "option_9_text": "",
+                                    "option9_x": 0,
+                                    "option9_y": 0,
+                                    "option9_l": 0,
+                                    "option9_r": 0,
+                                    "option9_u": 0,
+                                    "option9_d": 0,
+                                    "option_10_text": "",
+                                    "option10_x": 0,
+                                    "option10_y": 0,
+                                    "option10_l": 0,
+                                    "option10_r": 0,
+                                    "option10_u": 0,
+                                    "option10_d": 0,
+                                    "option_11_text": "",
+                                    "option11_x": 0,
+                                    "option11_y": 0,
+                                    "option11_l": 0,
+                                    "option11_r": 0,
+                                    "option11_u": 0,
+                                    "option11_d": 0,
+                                    "option_12_text": "",
+                                    "option12_x": 0,
+                                    "option12_y": 0,
+                                    "option12_l": 0,
+                                    "option12_r": 0,
+                                    "option12_u": 0,
+                                    "option12_d": 0,
+                                    "option_13_text": "",
+                                    "option13_x": 0,
+                                    "option13_y": 0,
+                                    "option13_l": 0,
+                                    "option13_r": 0,
+                                    "option13_u": 0,
+                                    "option13_d": 0,
+                                    "option_14_text": "",
+                                    "option14_x": 0,
+                                    "option14_y": 0,
+                                    "option14_l": 0,
+                                    "option14_r": 0,
+                                    "option14_u": 0,
+                                    "option14_d": 0,
+                                    "option_15_text": "",
+                                    "option15_x": 0,
+                                    "option15_y": 0,
+                                    "option15_l": 0,
+                                    "option15_r": 0,
+                                    "option15_u": 0,
+                                    "option15_d": 0,
+                                    "option_16_text": "",
+                                    "option16_x": 0,
+                                    "option16_y": 0,
+                                    "option16_l": 0,
+                                    "option16_r": 0,
+                                    "option16_u": 0,
+                                    "option16_d": 0
+                                },
+                                "id": "3185644a-7965-44b4-8123-723459c6d56a"
                             },
                             {
                                 "id": "8f8423ba-ebe8-4639-b81e-14fb42e25a87",
@@ -76072,6 +76471,32 @@
                                             "id": "0da53b43-bb1f-431a-bd6e-de69ddd2c5ca"
                                         },
                                         {
+                                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                                            "args": {
+                                                "__scriptTabs": "layout",
+                                                "minHeight": 6,
+                                                "maxHeight": 10,
+                                                "showBorder": true,
+                                                "textX": 0,
+                                                "textY": 1,
+                                                "textHeight": 5,
+                                                "closeWhen": "key",
+                                                "closeButton": "a",
+                                                "clearPrevious": true,
+                                                "text": [
+                                                    "hello soilder,",
+                                                    "sorry I mean,\nhello maggot",
+                                                    "Here's Crash Course\non Helicopter Piloting",
+                                                    "# 1\nTo Fly about :\nUP-DOWN-Left-Right",
+                                                    "# 2\nTo Radio close range \nairports and \naircraft: Press A",
+                                                    "# 3\ndont look down.",
+                                                    "now \n\"get to da choppa\""
+                                                ],
+                                                "avatarId": "091038c7-4dba-482f-ba0a-78fdd8e2bd3e"
+                                            },
+                                            "id": "bae765a4-8057-4189-921c-af10198f3485"
+                                        },
+                                        {
                                             "id": "022c5037-75d0-444b-9ca8-1591ed19b1cf",
                                             "command": "EVENT_TEXT",
                                             "args": {
@@ -76080,12 +76505,20 @@
                                                     "sorry I mean,\nhello maggot",
                                                     "Here's Crash Course\non Helicopter Piloting",
                                                     "# 1\nTo Fly about :\nUP-DOWN-Left-Right",
-                                                    "# 2\nTo Radio close range \nairports and aircraft\nPress A",
+                                                    "# 2\nTo Radio close range \nairports and \naircraft: Press A",
                                                     "# 3\ndont look down.",
                                                     "now \n\"get to da choppa\""
                                                 ],
-                                                "avatarId": "091038c7-4dba-482f-ba0a-78fdd8e2bd3e"
+                                                "avatarId": "091038c7-4dba-482f-ba0a-78fdd8e2bd3e",
+                                                "__comment": true
                                             }
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SHOW",
+                                            "args": {
+                                                "actorId": "$self$"
+                                            },
+                                            "id": "b9c1605b-83de-4ab7-bdc6-c911af6b7a06"
                                         }
                                     ],
                                     "false": []
@@ -76138,112 +76571,50 @@
                                             "id": "93538228-e2f7-49fd-9b89-4e3597da629b"
                                         },
                                         {
-                                            "command": "EVENT_IF_VALUE",
-                                            "args": {
-                                                "variable": "40",
-                                                "operator": "==",
-                                                "comparator": "0",
-                                                "__collapseElse": true,
-                                                "__disableElse": true
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "id": "82e5644d-d100-4fb7-897f-6af4d29372e9",
-                                                        "command": "EVENT_SWITCH_SCENE",
-                                                        "args": {
-                                                            "sceneId": "cb749e5a-4600-4a69-b388-730f3da30e97",
-                                                            "x": 12,
-                                                            "y": 18,
-                                                            "direction": "right",
-                                                            "fadeSpeed": "2"
-                                                        }
-                                                    }
-                                                ],
-                                                "false": []
-                                            },
-                                            "id": "5bce0fcc-a6cf-4a99-9262-d60a1e295620"
+                                            "command": "EVENT_MUSIC_STOP",
+                                            "args": {},
+                                            "id": "45d41d47-efd2-487f-832a-520819da512c"
                                         },
                                         {
-                                            "command": "EVENT_IF_VALUE",
+                                            "id": "e6d2962e-f715-49cb-8be0-379f1a80cd58",
+                                            "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "variable": "40",
-                                                "operator": "==",
-                                                "comparator": 1,
-                                                "__collapseElse": true,
-                                                "__disableElse": true
+                                                "sceneId": "15361182-508e-4d82-8a44-83fc94983c91",
+                                                "x": 52,
+                                                "y": 11,
+                                                "direction": "left",
+                                                "fadeSpeed": "2"
+                                            }
+                                        }
+                                    ],
+                                    "false": []
+                                }
+                            },
+                            {
+                                "id": "1bcc0cfd-d1f1-4841-bd00-20892439faf9",
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "34",
+                                    "operator": "==",
+                                    "comparator": 3,
+                                    "__collapseElse": false,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "67b43102-7fe8-4820-baed-2fc5fd459e8a"
                                             },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "id": "e6d2962e-f715-49cb-8be0-379f1a80cd58",
-                                                        "command": "EVENT_SWITCH_SCENE",
-                                                        "args": {
-                                                            "sceneId": "cb749e5a-4600-4a69-b388-730f3da30e97",
-                                                            "x": 52,
-                                                            "y": 11,
-                                                            "direction": "left",
-                                                            "fadeSpeed": "2"
-                                                        }
-                                                    }
-                                                ],
-                                                "false": []
-                                            },
-                                            "id": "8287c62e-afa8-4619-bece-1366821e3f60"
+                                            "id": "ce6ccb54-84e3-466a-b002-d3f35eb1ac08"
                                         },
                                         {
-                                            "command": "EVENT_IF_VALUE",
+                                            "command": "EVENT_ACTOR_SHOW",
                                             "args": {
-                                                "variable": "40",
-                                                "operator": "==",
-                                                "comparator": 2,
-                                                "__collapseElse": true,
-                                                "__disableElse": true
+                                                "actorId": "$self$"
                                             },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "id": "15bf766f-c520-41c1-acd7-106dcd45d7e7",
-                                                        "command": "EVENT_SWITCH_SCENE",
-                                                        "args": {
-                                                            "sceneId": "cb749e5a-4600-4a69-b388-730f3da30e97",
-                                                            "x": 56,
-                                                            "y": 17,
-                                                            "direction": "left",
-                                                            "fadeSpeed": "2"
-                                                        }
-                                                    }
-                                                ],
-                                                "false": []
-                                            },
-                                            "id": "0b379767-1b22-4e7f-ad6b-fd804393fbc9"
-                                        },
-                                        {
-                                            "command": "EVENT_IF_VALUE",
-                                            "args": {
-                                                "variable": "40",
-                                                "operator": "==",
-                                                "comparator": 3,
-                                                "__collapseElse": true,
-                                                "__disableElse": true
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "id": "fd3162bc-910c-47a0-89a5-c584df302500",
-                                                        "command": "EVENT_SWITCH_SCENE",
-                                                        "args": {
-                                                            "sceneId": "cb749e5a-4600-4a69-b388-730f3da30e97",
-                                                            "x": 28,
-                                                            "y": 20,
-                                                            "direction": "right",
-                                                            "fadeSpeed": "2"
-                                                        }
-                                                    }
-                                                ],
-                                                "false": []
-                                            },
-                                            "id": "7475b481-8e7b-4803-8b92-6bcbac988d20"
+                                            "id": "69e6102f-5e36-4106-93de-3d8da6edfe3b"
                                         }
                                     ],
                                     "false": []
@@ -76839,8 +77210,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 137.60000610351562,
-        "worldScrollY": 732,
+        "worldScrollX": 1116,
+        "worldScrollY": 0,
         "zoom": 127.43054580688477,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -76869,9 +77240,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "cf54fdc1-d36b-46be-9182-0fc15b1369e8",
         "navigatorSplitSizes": [
-            231,
-            307,
-            194
+            229,
+            304,
+            192
         ],
         "showNavigator": true,
         "defaultFontId": "2ebd2830-9818-4fa4-b87e-255b3ad20803",
