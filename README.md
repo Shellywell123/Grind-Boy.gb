@@ -78,21 +78,26 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
 ```
 
 ## Upcoming/Planned Development:
- = Main issue is the sprite limit is restricts the number of allowed animations for the player. 
+ = Bugs/Crashs
+ - Globe scence crash - reason still unknown
+ = Animation : Main issue is the sprite limit is restricts the number of allowed animations for the player. 
  - `GB STUDIO ACTOR LIMIT MET` menu rendering issue (work around could be to use a new scence)
  - `GB STUDIO ACTOR LIMIT MET` Flip tricks `B`+`Direction` (Kickflip animation already made)
  - `GB STUDIO ACTOR LIMIT MET` Bail Animations (Collisions/board not finished flipping)
  - `GB STUDIO ACTOR LIMIT MET` Nollie
  - `GB STUDIO ACTOR LIMIT MET` Grind Mechanics (down to drop down / early pop out)
  - `GB STUDIO TILE LIMIT MET` Credits rendering issue
- - Prevent jump while pushing/stopping
- - Add Soundeffects (Menu/Pop/Landing/Rolling/Grinds)
- - Add Lofi/Hip-Hop Music/Themetune
- - Improve Level Design (add obstacles - stairs/grinds/man-holes)
  - Animated background tiles (intro floor, ocean)
  - Aircraft Shadows (to improve perspective)
- - 8 Directional Dynamic compass
+ - 8-Directional Dynamic compass
+ = Audio
+ - Add Soundeffects (Menu/Pop/Landing/Rolling/Grinds)
+ - Add Lofi/Hip-Hop Tracks
+ = Backgrounds
+ - Improve Level Design (add obstacles - stairs/grinds/man-holes)
  - Colors (Retro Gameboy style pallettes throughout)
+ = Engine
+ - Re-add old Platformer engine feautures to include old maps
 
 I need to learn how to call animation states and sound effects within the engine, to prevent repeating logic for animations + movement in visual code.
 
@@ -105,3 +110,4 @@ I need to learn how to call animation states and sound effects within the engine
 - GB Studio Docs https://www.gbstudio.dev/docs/
 - Music Tool Convert `.mod` to `.uge` https://github.com/SuperDisk/hUGETracker/releases/tag/1.0b9
 - Plugins - Engine/player Field scripts https://github.com/pau-tomas/gb-studio-plugins
+- Tile Counter http://gb-studio-tile-count.glitch.me/
