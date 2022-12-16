@@ -30,7 +30,7 @@
 Homebrew Skateboarding platformer game for the Nintendo GameBoy.
 Built with [GB Studio](https://www.gbstudio.dev/). 
 
-GB studio is used to manage assets/scenes/menus and modifying the C engine governs the actual mechanics.
+GB studio is used to manage assets/scenes/menus and modifying the engine code written in C for the actual mechanics.
 
 The current vision of the game is to create a somewhat realistic 2D skateboarding game focussing on the aestetics of the animations and controls. With hopes allowing te player to endlessly roll through iconic skatespots doing satisfying grinds and flip tricks. Unfortunately I am in a constant battle with the sprite animation limit of the game boy, which is the main restraint for adding more tricks/animations to the game.
 
@@ -86,13 +86,16 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
  - `GB STUDIO ACTOR LIMIT MET` Grind Mechanics (down to drop down / early pop out)
  - `GB STUDIO TILE LIMIT MET` Credits rendering issue
  - Animated background tiles (intro floor, ocean)
- - Aircraft Shadows (to improve perspective)
- - 8-Directional Dynamic compass
+ - AI Aircraft Shadows (to improve perspective)
  
 ### Audio
  - Add Soundeffects (Menu/Pop/Landing/Rolling/Grinds)
  - Add Lofi/Hip-Hop 
- 
+
+### UI/Menus
+ - Phone option in menu (call hank/pilot)
+ - DJ option (control music tracks / mute)
+
 ### Backgrounds
  - Improve Level Design (add obstacles - stairs/grinds/man-holes)
  - Colors (Retro Gameboy style pallettes throughout)
