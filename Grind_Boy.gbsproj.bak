@@ -27778,7 +27778,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "2d998ad8-a131-4897-a1d2-4a24fa829691",
-                    "x": 17,
+                    "x": 16,
                     "y": 17
                 }
             ],
@@ -61550,7 +61550,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "air\\radio.png",
-            "checksum": "4ac0b099041e31155884c2abeac7c27450e84894",
+            "checksum": "4451a35ba896177b3b5b6ad26257319859726fc0",
             "width": 32,
             "height": 32,
             "states": [
@@ -76971,10 +76971,10 @@
                                 "command": "PT_EVENT_ADVANCED_MENU",
                                 "args": {
                                     "variable": "34",
-                                    "__scriptTabs": "items",
+                                    "__scriptTabs": "text",
                                     "width": 10,
                                     "height": 6,
-                                    "from": "right",
+                                    "from": "bottom",
                                     "items": 3,
                                     "option_1_text": "Phone",
                                     "option1_x": 1,
@@ -78529,8 +78529,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 330.3999938964844,
-        "worldScrollY": 1280,
+        "worldScrollX": 936,
+        "worldScrollY": 1570.4000244140625,
         "zoom": 211.8055419921875,
         "customColorsEnabled": true,
         "sgbEnabled": false,
