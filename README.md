@@ -32,7 +32,7 @@ Built with [GB Studio](https://www.gbstudio.dev/).
 
 GB studio is used to manage assets/scenes/menus and modifying the engine code written in C for the actual mechanics.
 
-The current vision of the game is to create a somewhat realistic 2D skateboarding game focussing on the aestetics of the animations and controls. With hopes allowing te player to endlessly roll through iconic skatespots doing satisfying grinds and flip tricks. Unfortunately I am in a constant battle with the sprite animation limit of the game boy, which is the main restraint for adding more tricks/animations to the game.
+The current vision of the game is to create a somewhat realistic 2D skateboarding game focussing on the aestetics of the animations and controls. With hopes allowing the player to endlessly roll through iconic skatespots doing satisfying grinds and flip tricks. Unfortunately I am in a constant battle with the sprite animation limit of the game boy, which is the main restraint for adding more tricks/animations to the game.
 
 The early beta version of Grind Boy was more arcade themed using a smaller sprite and mario-like controls. Allowing the player to progress though a timeline of levels by jumping into the screens of various retro Nintendo consoles, with retro styled maps (mario-bros/tetris/pacman) that can be found in the assets folder. I may reuse them as a easteregg.
 
@@ -78,7 +78,7 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
 ```
 
 ## Upcoming/Planned Development:
-### Animation : Main issue is the sprite limit is restricts the number of allowed animations for the player. 
+### Animation : Main issue is the sprite limit restricts the number of allowed animations for the player. 
  - `GB STUDIO ACTOR LIMIT MET` menu rendering issue (work around could be to use a new scence)
  - `GB STUDIO ACTOR LIMIT MET` Flip tricks `B`+`Direction` (Kickflip animation already made)
  - `GB STUDIO ACTOR LIMIT MET` Bail Animations (Collisions/board not finished flipping)
@@ -89,7 +89,7 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
  - AI Aircraft Shadows (to improve perspective)
  
 ### Audio
- - Add Soundeffects (Menu/Pop/Landing/Rolling/Grinds)
+ - Add Sound effects (Menu/Pop/Landing/Rolling/Grinds)
  - Add Lofi/Hip-Hop 
 
 ### UI/Menus
@@ -103,7 +103,7 @@ Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studi
 ### Engine
  - Re-add old Platformer engine feautures to include old maps
 
-I need to learn how to call animation states and sound effects within the engine, to prevent repeating logic for animations + movement in visual code.
+I need to learn how to call animation states and sound effects within the engine c code, to prevent repeating logic for animations + movement in visual code.
 
 ## Project Blueprints
 <a>
