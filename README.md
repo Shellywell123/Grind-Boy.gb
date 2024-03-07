@@ -4,7 +4,7 @@
 <td>
   
 <a >
-  <img src="https://github.com/Shellywell123/Grind-Boy/blob/GB-Studio-3.1/assets/Product/Banner.png" width="500" />
+  <img src="https://github.com/Shellywell123/Grind-Boy.gb/blob/GB-Studio-3.1/assets/Product/Banner.png" width="500" />
 </a>
   
 </pre>
@@ -12,7 +12,7 @@
 <td>
   
 <a >
-  <img src="https://github.com/Shellywell123/Grind-Boy/blob/GB-Studio-3.1/assets/Product/BoxCover.png" width="150" />
+  <img src="https://github.com/Shellywell123/Grind-Boy.gb/blob/GB-Studio-3.1/assets/Product/BoxCover.png" width="150" />
 </a>
   
 </pre>
@@ -20,7 +20,7 @@
 <td>
 
 <a >
-  <img src="https://github.com/Shellywell123/Grind-Boy/blob/GB-Studio-3.1/assets/Product/Cartridge.png" width="75" />
+  <img src="https://github.com/Shellywell123/Grind-Boy.gb/blob/GB-Studio-3.1/assets/Product/Cartridge.png" width="75" />
 </a>
 
 </td>
@@ -39,10 +39,10 @@ The early beta version of Grind Boy was more arcade themed using a smaller sprit
 ## Play the Latest Demo V 1.2
 The latest Demo is a simple stripped back version of the game being used to test/fine-tune the controls and animations.
 
-Download the [ROM file](https://github.com/Shellywell123/Grind-Boy/blob/GB-Studio-3.1/build/rom/game.gb) or [Click here to play online!](https://shellywell123.github.io/Grind-Boy/build/web/index.html)
+Download the [ROM file](https://github.com/Shellywell123/Grind-Boy.gb/blob/GB-Studio-3.1/build/rom/game.gb) or [Click here to play online!](https://shellywell123.github.io/Grind-Boy.gb/build/web/index.html)
 
-<a href="https://shellywell123.github.io/Grind-Boy/build/web/index.html">
-  <img src="https://github.com/Shellywell123/Grind-Boy/blob/GB-Studio-3.1/assets/screenshots/DemoV1.1.gif" width="800" />
+<a href="https://shellywell123.github.io/Grind-Boy.gb/build/web/index.html">
+  <img src="https://github.com/Shellywell123/Grind-Boy.gb/blob/GB-Studio-3.1/assets/screenshots/DemoV1.1.gif" width="800" />
 </a>
 
 ## Controls
@@ -107,7 +107,7 @@ I need to learn how to call animation states and sound effects within the engine
 
 ## Project Blueprints
 <a>
-  <img src="https://github.com/Shellywell123/Grind-Boy/blob/GB-Studio-3.1/assets/screenshots/Blueprints-V1.2.png" width="800" />
+  <img src="https://github.com/Shellywell123/Grind-Boy.gb/blob/GB-Studio-3.1/assets/screenshots/Blueprints-V1.2.png" width="800" />
 </a>
 
 ## Development Tools:
